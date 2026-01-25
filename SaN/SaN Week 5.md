@@ -4,10 +4,12 @@
 ##### Application Layer
 - Web, Email, FTP, DNS
 - Handles **user-facing applications
+- 'Stuff that you write'
 
 ##### Transport Layer
 - TCP, UDP
 - Manages **end-to-end connections**
+- 
 
 ##### Internet Layer
 - IP, ICMP, Routing
