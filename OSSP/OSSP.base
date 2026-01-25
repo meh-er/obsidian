@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.hasTag("OSSP")
+views:
+  - type: table
+    name: Table
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.hasTag("OSSP")
