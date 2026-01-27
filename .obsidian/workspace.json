@@ -31,8 +31,7 @@
               "title": "Day Planner Release 0.28.0"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,7 +216,7 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "81c50e1d67be77e6",
+  "active": "e43aeacf1cf89ac1",
   "lastOpenFiles": [
     "SaN/SaN.base",
     "SaN/Cryptography.md",
