@@ -11,32 +11,26 @@
             "id": "e43aeacf1cf89ac1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "SaN/Week 1 SaN.md",
-                "mode": "source",
-                "source": false
+                "file": "SaN/SaN.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Week 1 SaN"
+              "icon": "lucide-table",
+              "title": "SaN"
             }
           },
           {
-            "id": "79f945fcd9b08dea",
+            "id": "81c50e1d67be77e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSSP/Dynamic memory management in C (`malloc` and `free`.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "planner-release-notes",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Dynamic memory management in C (`malloc` and `free`"
+              "title": "Day Planner Release 0.28.0"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "856d827809a8eed7",
@@ -190,6 +183,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "ec2c8037eca49295",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
           }
         ],
         "currentTab": 5
@@ -207,39 +210,46 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "79f945fcd9b08dea",
+  "active": "e43aeacf1cf89ac1",
   "lastOpenFiles": [
-    "OSSP/Pointers and memory.md",
-    "Pasted image 20260125222115.png",
-    "Untitled.md",
+    "SaN/Cryptography.md",
+    "Untitled.canvas",
+    "SaN/Internet.md",
+    "Crypto.md",
+    "SaN/SaN.base",
+    "SaN/Access Control.md",
     "SaN/Week 1 SaN.md",
-    "Pasted image 20260125220212.png",
-    "OSSP/Strings in C.md",
-    "OSSP/von Neumann architecture.md",
-    "OSSP/Basic C syntax, compiling programs.md",
-    "OSSP/OSSP.base",
-    "OSSP/Writing kernel programs in C.md",
-    "OSSP/Disk access.md",
-    "OSSP/File systems.md",
-    "OSSP/The critical-section problem.md",
+    "Images/Pasted image 20260126205154.png",
+    "Images/Pasted image 20260126205145.png",
+    "SaN/The Internet Protocol Stack - Layer Functions.md",
+    "SaN/Hashes.md",
     "OSSP/Scheduling processes.md",
-    "OSSP/Context switching.md",
     "OSSP/Process concept.md",
+    "OSSP/Pointers and memory.md",
+    "OSSP/OSSP.base",
     "OSSP/Memory Swapping, fragmentation and paging.md",
-    "OSSP/Concurrent programming.md",
-    "OSSP/Sockets.md",
+    "OSSP/File systems.md",
     "OSSP/File handling in C (FILE, fopen and fclose).md",
     "OSSP/Dynamic memory management in C (`malloc` and `free`.md",
+    "OSSP/Disk access.md",
+    "OSSP/Context switching.md",
+    "OSSP/Concurrent programming.md",
+    "OSSP/Basic C syntax, compiling programs.md",
+    "Images/Pasted image 20260125222115.png",
+    "Images/Pasted image 20260125220212.png",
+    "OSSP/Strings in C.md",
+    "OSSP/von Neumann architecture.md",
+    "OSSP/Writing kernel programs in C.md",
+    "OSSP/The critical-section problem.md",
+    "OSSP/Sockets.md",
     "OSSP/Static and global variables, variable scope.md",
     "OSSP/OSSP Index.md",
-    "SaN/SaN Week 7.md",
-    "SaN/SaN Week 5.md",
     "Untitled 1.base",
-    "Untitled.canvas",
-    "2026-01-25.md",
     "Images/Pasted image 20260121135150.png",
     "Images/Pasted image 20260120142646.png",
     "Images/Pasted image 20260120142625.png",
@@ -247,12 +257,8 @@
     "Images/Pasted image 20260120141641.png",
     "Images/Pasted image 20260120141619.png",
     "Images/Pasted image 20260120141558.png",
-    "Images/Pasted image 20260120141525.png",
-    "Images/Pasted image 20260120141503.png",
     "SaN",
     "OSSP",
-    "SaN/Shell Commands.md",
-    "2026-01-19.md",
     "desktop.ini"
   ]
 }

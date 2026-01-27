@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.hasTag("SaN")
+views:
+  - type: table
+    name: Table
