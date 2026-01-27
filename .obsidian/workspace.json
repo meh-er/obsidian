@@ -11,13 +11,14 @@
             "id": "e43aeacf1cf89ac1",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "SaN/SaN.base",
-                "viewName": "Table"
+                "file": "SaN/Cryptography.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "SaN"
+              "icon": "lucide-file",
+              "title": "Cryptography"
             }
           },
           {
@@ -30,7 +31,8 @@
               "title": "Day Planner Release 0.28.0"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,13 +217,13 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "e43aeacf1cf89ac1",
+  "active": "81c50e1d67be77e6",
   "lastOpenFiles": [
+    "SaN/SaN.base",
     "SaN/Cryptography.md",
     "Untitled.canvas",
     "SaN/Internet.md",
     "Crypto.md",
-    "SaN/SaN.base",
     "SaN/Access Control.md",
     "SaN/Week 1 SaN.md",
     "Images/Pasted image 20260126205154.png",

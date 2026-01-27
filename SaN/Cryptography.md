@@ -193,3 +193,8 @@ A better scheme replaces each letter with another letter. here there are 26! pos
 - CBC mode: any change affects all of the rest of the message
 - ECB mode: any change affects only the block
 - CTR mode: any change affects only the bits altered
+
+### AES
+128 bit input -> 128 bit output
+ black box algorithm for now
+ security of aes is that given a cyphertext c, adversary cannot get back A
