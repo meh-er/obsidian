@@ -129,6 +129,27 @@ You can think of array-name 'a' as pointer to the array a[]
 - String is terminated by the null character '\0' (ASCII value 0).
 - The null string (length zero) is the null character only.
 
+
+#### Void pointers
+Sometimes you don't know what type you point to.
+
+```
+int a = 0x12345678;
+void *any = &a;
+printf("%d", *((int*)any));
+```
+You *must* cast it to the correct type before using the underlying values.
+Pointer arithmetic on void* is illegal in C
+You *must* cast it to the correct pointer type before doing ptr arithmetic.
+
+#### Function pointers
+Sometimes you want to point to functions:
+
+```
+int (*func)(float, int);
+```
+This example means: func is a pointer to a function that returns an int and takes a float and an int as parameters
+* This is useful for callbacks from library code e,g.
 ### Memory Layout of a C Program
 Typical memory layout of C program has the following sections:
 1. **Text or code segment** - contains the program i.e. the executable instructions
@@ -180,4 +201,23 @@ main(){
 }
 
 ```
+
+
+#### Memory layout of two-dimensional array
+C compiler stores 2D array in **row-major** order
+- All elements of Row #0 are stored
+- then all elements of Row#1 are stored
+- etc
+![[Pasted image 20260213142706.png]]
+
+
+![[Pasted image 20260213142635.png]]
+
+**Remember: Array names of 1D and 2D arrays**
+* For an 1D array a[]
+	* The array name `a` is a constant expression whose value is the address of `a[0]`
+	* `a+i` is the address of `a[i]`
+* For a 2D array `a[][]`
+	* The array name `a` is a constant expression whose value is the address of the oth row
+	* `a+i` is the address of the ith row
 
