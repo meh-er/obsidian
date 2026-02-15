@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Input Output Functions in C.md",
+                "file": "OSSP/File handling in C (FILE, fopen and fclose).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Input Output Functions in C"
+              "title": "File handling in C (FILE, fopen and fclose)"
             }
           }
         ]
@@ -209,8 +209,10 @@
   },
   "active": "e43aeacf1cf89ac1",
   "lastOpenFiles": [
-    "OSSP/OSSP.base",
+    "OSSP/File systems.md",
     "Input Output Functions in C.md",
+    "OSSP/File handling in C (FILE, fopen and fclose).md",
+    "OSSP/OSSP.base",
     "OSSP/Pointers and memory.md",
     "OSSP/Dynamic memory management in C (`malloc` and `free`.md",
     "OSSP/Strings in C.md",
@@ -233,8 +235,6 @@
     "OSSP/Scheduling processes.md",
     "OSSP/Process concept.md",
     "OSSP/Memory Swapping, fragmentation and paging.md",
-    "OSSP/File systems.md",
-    "OSSP/File handling in C (FILE, fopen and fclose).md",
     "OSSP/Disk access.md",
     "OSSP/Context switching.md",
     "OSSP/Concurrent programming.md",
