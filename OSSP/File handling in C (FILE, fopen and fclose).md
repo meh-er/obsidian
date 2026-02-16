@@ -83,3 +83,65 @@ We can ***directly*** jump to a target byte-number in a file without reading pre
 
 - `ftell(fp)` returns current byte position in file
 - `rewind(fp)` resets position to start of file
+
+**Example**
+```
+int main() {
+	FILE *fp;
+	
+	fp = fopen("file.txt,"w+");
+	fprintf(fp,"%s","this is something");
+	
+	fseek(fp,7,0);
+	fprintf(fp,"%s", " C language");
+	fclose(fp)l
+	
+	return(0);
+	}
+```
+
+The program
+1. writes "This is something"
+2. Then moves to 7 byte-positions after beginning (8th position)
+3. writes "C language" (overwriting any existing data)
+Thus, the final content is "This is C Language"
+
+#### Command line arguments in C
+We can modify a program to receive arguments from command line.
+Syntax is 
+```
+int main(int argc, char *argv[]){
+...
+}
+```
+- argc (Argument Count) and *automatically* stores the number of command-line arguments passed by the user including name of program.
+- argv(Argument Vector) is array of char pointers listing all the arguments
+	argv[0] is the name of the program
+	argv[1] is the first command-line argument etc
+
+#### Large programs
+Most programs consist of many C and H files.
+Compiling manually is annoying, you need an automated **build** **system**. One such system is 
+`make`
+It looks for a Makefile in the folder where you call it that contains build commands
+
+Makefiles contain rules:
+`<target>: <file0> <file1> ... <command>`
+Means: if target does not exist or any of the files has changed, execute the command
+
+Typical file types in this
+```
+.c Sources
+.h Headers
+.o Objec files (compiled C)
+```
+
+Object files contain the compiled machine code. Do not commit them to version control. They are in the final step linked together for the full executable.
+
+#### The preprocessor
+Can define constant and macros:
+```
+#define CONSTANT 3.14159
+#define MACRO(x) ((x) = (x) + 5)
+```
+macros are sometimes useful to avoid call overheads for small functions but to be used with care
