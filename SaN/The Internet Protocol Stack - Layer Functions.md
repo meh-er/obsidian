@@ -63,6 +63,7 @@
 - Use **Wireshark filters**: `arp` or `eth.src != eth.dst`
 
 # Cryptographic Protocols
+**nonce** => Number only used once
 CODE
 {-}$K_{ab}$ means symmetric key encryption
 ##### Key Establishment Protocol
@@ -80,14 +81,21 @@ If Alice and Bob know each other's public keys, can they set up a symmetric key?
 3. A -> B : $E_B(N_b)$
 Public Key Encryption Notation $E_X(~)$ means public key encryption
 $N_a$ and $N_b$ can be used to generate a symmetric key.
-**Message Guarentees**
+
+
+* Public key is slower
+* Use this to show talking with right person --> want to have encryption for a session
+* Less data lost/exposed if key is exposed
+* Can mutually authenticate via certificates
+
+**Message Guarantees**
 - Goals: Alice and Bob are sure they are talking to each other
 	- Whoever could know $N_a$ is the person who decrypted the first message.
 	- Whoever could know $N_b$ is the person who decrypted the second message.
 **Why is this Secure?**
 - A and B mutually authenticate each other
 - The attack where Elvis intercepts and impersonates Bob is no longer possible
-- **Mutual AUthentication** - Alice and Bob both verify each other
+- **Mutual Authentication** - Alice and Bob both verify each other
 - **Protection Against MITM** - Attackers cannot impersonate Bob
 
 #### Forward Secrecy

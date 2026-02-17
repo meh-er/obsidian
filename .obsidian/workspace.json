@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSSP/Operating System.md",
+                "file": "SaN/The Internet Protocol Stack - Layer Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Operating System"
+              "title": "The Internet Protocol Stack - Layer Functions"
+            }
+          },
+          {
+            "id": "34abb718cf52e24f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSSP/0Static and global variables, variable scope.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0Static and global variables, variable scope"
+            }
+          },
+          {
+            "id": "0da846810de7f4d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-02-13.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-02-13"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,13 +236,31 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "e43aeacf1cf89ac1",
+  "active": "34abb718cf52e24f",
   "lastOpenFiles": [
-    "Pasted image 20260215203859.png",
-    "OSSP/OSSP.base",
+    "OSSP/Concurrent programming.md",
+    "Input Output Functions in C.md",
+    "OSSP/Writing kernel programs in C.md",
+    "OSSP/The critical-section problem.md",
+    "OSSP/von Neumann architecture.md",
+    "OSSP/Strings in C.md",
+    "OSSP/Scheduling processes.md",
+    "OSSP/Sockets.md",
+    "OSSP/Process concept.md",
+    "OSSP/Pointers and memory.md",
     "OSSP/Operating System.md",
     "OSSP/Memory Swapping, fragmentation and paging.md",
-    "OSSP/Concurrent programming.md",
+    "OSSP/File systems.md",
+    "OSSP/File handling in C (FILE, fopen and fclose).md",
+    "OSSP/Dynamic memory management in C (`malloc` and `free`.md",
+    "OSSP/Context switching.md",
+    "OSSP/Disk access.md",
+    "OSSP/Basic C syntax, compiling programs.md",
+    "OSSP/0Static and global variables, variable scope.md",
+    "2026-02-13.md",
+    "OSSP/OSSP.base",
+    "SaN/The Internet Protocol Stack - Layer Functions.md",
+    "Pasted image 20260215203859.png",
     "Pasted image 20260215203337.png",
     "Images/Pasted image 20260215201953.png",
     "Images/Pasted image 20260215201825.png",
@@ -223,15 +270,6 @@
     "Images/Pasted image 20260215193844.png",
     "Images/Pasted image 20260215193418.png",
     "Images/Pasted image 20260215193005.png",
-    "Images/Pasted image 20260215192950.png",
-    "OSSP/Sockets.md",
-    "OSSP/Pointers and memory.md",
-    "2026-02-13.md",
-    "OSSP/File handling in C (FILE, fopen and fclose).md",
-    "OSSP/File systems.md",
-    "Input Output Functions in C.md",
-    "OSSP/Dynamic memory management in C (`malloc` and `free`.md",
-    "OSSP/Strings in C.md",
     "SaN/Cryptography.md",
     "SaN/RSA.md",
     "SaN/SaN.base",
@@ -239,15 +277,6 @@
     "SaN/Internet.md",
     "Crypto.md",
     "SaN/Access Control.md",
-    "SaN/Week 1 SaN.md",
-    "SaN/The Internet Protocol Stack - Layer Functions.md",
-    "SaN/Hashes.md",
-    "OSSP/Scheduling processes.md",
-    "OSSP/Process concept.md",
-    "OSSP/Disk access.md",
-    "OSSP/Context switching.md",
-    "OSSP/Basic C syntax, compiling programs.md",
-    "OSSP/von Neumann architecture.md",
     "Untitled 1.base",
     "Images",
     "SaN",
