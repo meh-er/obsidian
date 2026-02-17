@@ -38,3 +38,13 @@ y
 	- Disk surface is logically divided into tracks, which are subdivided into sectors
 	- The disk controller determines the logical interaction between the device and the computer
 - Today also often flash memory
+
+## OS Architecture
+#### UNIX - one big kernel
+- Consists of everything below the system-call interface and above the physical hardware
+- Provides the file system, CPU scheduling, memory management, and other OS functions; a large number of functions for one level
+- Limited to hardware support compiled into the kernel
+
+![[Pasted image 20260217134725.png]]
+
+
