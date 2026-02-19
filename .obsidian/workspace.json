@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenSSL.md",
+                "file": "romfs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OpenSSL"
+              "title": "romfs"
             }
           },
           {
@@ -265,10 +265,13 @@
   },
   "active": "50a67da3f0789f1c",
   "lastOpenFiles": [
+    "Extras/FOSCAM/FI8918W Firmware 11.22.2.46 (VIA Chipset).md",
+    "romfs.md",
+    "Extras/FOSCAM/FOSCAM.md",
+    "SaN/Cryptography.md",
+    "OpenSSL.md",
     "SaN/The Internet Protocol Stack - Layer Functions.md",
     "OSSP/Virtual Machines.md",
-    "OpenSSL.md",
-    "Extras/FOSCAM/FOSCAM.md",
     "Extras/Salt.md",
     "Extras/FOSCAM",
     "Extras",
@@ -300,9 +303,6 @@
     "OSSP/File handling in C (FILE, fopen and fclose).md",
     "OSSP/Dynamic memory management in C (`malloc` and `free`.md",
     "OSSP/Context switching.md",
-    "OSSP/Disk access.md",
-    "OSSP/Basic C syntax, compiling programs.md",
-    "2026-02-13.md",
     "Images/Pasted image 20260215203859.png",
     "SaN/SaN.base",
     "Untitled.canvas",
