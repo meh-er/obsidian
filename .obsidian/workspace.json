@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-02-19.md",
+                "file": "Extras/Stack vs Heap memory allocation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-19"
+              "title": "Stack vs Heap memory allocation"
             }
           },
           {
@@ -265,13 +265,14 @@
   },
   "active": "50a67da3f0789f1c",
   "lastOpenFiles": [
-    "2026-02-13.md",
     "2026-02-19.md",
-    "romfs.md",
+    "Extras/Stack vs Heap memory allocation.md",
+    "2026-02-13.md",
+    "Extras/romfs.md",
     "Extras/FOSCAM/FI8918W Firmware 11.22.2.46 (VIA Chipset).md",
     "Extras/FOSCAM/FOSCAM.md",
     "SaN/Cryptography.md",
-    "OpenSSL.md",
+    "Extras/OpenSSL.md",
     "SaN/The Internet Protocol Stack - Layer Functions.md",
     "OSSP/Virtual Machines.md",
     "Extras/Salt.md",
@@ -302,7 +303,6 @@
     "OSSP/Pointers and memory.md",
     "OSSP/Memory Swapping, fragmentation and paging.md",
     "OSSP/File systems.md",
-    "OSSP/File handling in C (FILE, fopen and fclose).md",
     "Images/Pasted image 20260215203859.png",
     "SaN/SaN.base",
     "Untitled.canvas",
