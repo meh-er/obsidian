@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "856d827809a8eed7",
@@ -263,10 +264,10 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "50a67da3f0789f1c",
+  "active": "0da846810de7f4d8",
   "lastOpenFiles": [
-    "2026-02-19.md",
     "Extras/Stack vs Heap memory allocation.md",
+    "2026-02-19.md",
     "2026-02-13.md",
     "Extras/romfs.md",
     "Extras/FOSCAM/FI8918W Firmware 11.22.2.46 (VIA Chipset).md",
