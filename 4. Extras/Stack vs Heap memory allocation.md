@@ -32,13 +32,3 @@ Key Features of Heap Allocation
 - Typically **larger in size** compared to stack memory
 - Heap memory **persists** as long as the entire application is running
 
-e.g.
-```
-int main()
-{
-	// This memory is for 10 integers
-	// is allocated on the heap
-	int *ptr = new int[10];
-}
-```
-

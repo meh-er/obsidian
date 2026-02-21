@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. SaN/The Internet Protocol Stack - Layer Functions.md",
+                "file": "4. Extras/Stack vs Heap memory allocation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Internet Protocol Stack - Layer Functions"
+              "title": "Stack vs Heap memory allocation"
             }
           },
           {
@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Questions.md",
+                "file": "stack frame.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interview Questions"
+              "title": "stack frame"
             }
           }
         ],
@@ -277,11 +277,17 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "e502fc63101dfdb2",
+  "active": "48bea1e75b083b32",
   "lastOpenFiles": [
-    "4. Extras/ASLR.md",
     "Interview Questions.md",
+    "stack frame.md",
+    "4. Extras/heap.md",
+    "4. Extras/Stack vs Heap memory allocation.md",
+    "4. Extras/stack.md",
     "2. SaN/The Internet Protocol Stack - Layer Functions.md",
+    "thread.md",
+    "process.md",
+    "4. Extras/ASLR.md",
     "2. SaN/Shell Commands.md",
     "2. SaN/SaN Week 7.md",
     "2. SaN/SaN.base",
@@ -291,7 +297,6 @@
     "2. SaN/Cryptography.md",
     "2. SaN/Access Control.md",
     "2026-02-13.md",
-    "4. Extras/Stack vs Heap memory allocation.md",
     "2026-02-19.md",
     "4. Extras/romfs.md",
     "4. Extras/FOSCAM/FI8918W Firmware 11.22.2.46 (VIA Chipset).md",
@@ -308,16 +313,11 @@
     "3. Images/Pasted image 20260217135415.png",
     "1. OSSP/Operating System.md",
     "3. Images/Pasted image 20260217134725.png",
-    "1. OSSP/System Calls.md",
     "3. Images/Pasted image 20260217134531.png",
     "3. Images/Pasted image 20260217134122.png",
     "3. Images/Pasted image 20260217133208.png",
     "3. Images/Pasted image 20260217133150.png",
-    "1. OSSP/Process concept.md",
     "3. Images/Pasted image 20260217131544.png",
-    "1. OSSP/0Static and global variables, variable scope.md",
-    "1. OSSP/Concurrent programming.md",
-    "4. Extras/Input Output Functions in C.md",
     "3. Images/Pasted image 20260215203859.png",
     "Untitled.canvas",
     "Untitled 1.base",
