@@ -169,6 +169,6 @@ A protocol provides Mutual Belief in a key **K** for Alice with respect to Bob i
 - Secure communication relies on key establishment protocols
 - Mutual authentication ensures both parties are who they claim to be
 - Forward secrecy prevents past communications from being decrypted if long-term keys are compromised.
-- Certificates help verify identities using a trusted third part (TTP)
+- Certificates help verify identities using a trusted third party (TTP)
 - The ultimate goal is **Mutual Belief in a Key** - ensuring both Alice and Bob trust the established key and each other.
 
