@@ -1,6 +1,8 @@
 #Theory 
 
 # Stack allocation
+- Used for **automatic allocation** when you know how much memory needs to be allocated **before runtime (at compile time)**
+
 - Assigning memory for local variables and function calls in the call stack
 - Freed immediately when the function ends
 - Fast, efficient, but has limited space

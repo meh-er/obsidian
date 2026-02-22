@@ -1,4 +1,8 @@
 #Theory 
+
+- Allocated dynamically, takes longer but is good for  when you don't know how much memory needs allocating. 
+
+
 - Allocated dynamically during program execution. Unlike [[stack]], it is not freed automaticallly, requires **manual deallocation (in C/C++)**
 - Whenever an **object** is created, it is stored in **heap memory**, while references to these objects are stored in **stack memory**.
 - Less safe than stack because it is **accessible by multiple threads**, increasing the risk of **data corruption** and **memory leaks** if not handled properly
