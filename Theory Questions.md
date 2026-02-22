@@ -1,5 +1,5 @@
 *- What happens when a program calls exec() on Linux?
-*- What is the difference between user space and kernel space?
+- What is the difference between [[user space]] and [[kernel space]]?
 - What is [[virtual memory]]?
 - What is [[ASLR]] and why is it important?
 - What is the difference between a [[process]] and a [[thread]]?

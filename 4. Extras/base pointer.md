@@ -1,6 +1,6 @@
 #Theory 
 
-The Base Pointer (EBP) (also called the *Frame Pointer*) is a 32-bit register that acts as a **fixed reference point** for the current function's [[stack frame]]. A [[stack frame]] is the portion of the [[stack]] allocated to a single function call, containing its arguments, return address, and local variables.
+The Base Pointer (EBP) (also called the *Frame Pointer*) is a 32-bit register that acts as a **fixed reference point** for the current function's [[stack frame]]. A [[stack frame]] is the portion of the [[stack]] allocated to a single [[function call]], containing its arguments, return address, and local variables.
 
 Unlike ESP (which moves as data is pushed/popped), EBP remains fixed during a function's execution. This stability makes EBP ideal for referencing arguments and local variables via fixed offsets.
 
@@ -12,12 +12,12 @@ push ebp
 ; Save the calling function’s EBP (old EBP) onto the stack
 
 mov ebp, esp 
-; Set EBP to the current ESP (now ESP anchors the new [[[[stack frame]]]])
+; Set EBP to the current ESP (now ESP anchors the new stack frame)
 
 ```
 
 
-After this, EBP acts as a 'base' for the frame. The stack now looks like this.
+After this, EBP acts as a 'base' for the frame. The [[stack]] now looks like this.
 
 
 | **Address**  | **Content**              | **Offset from EBP** |
