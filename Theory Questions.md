@@ -70,7 +70,7 @@ https://www.codegenes.net/blog/what-exactly-is-the-base-pointer-and-stack-pointe
 - What is a format string vulnerability?
 - What security problems to garbage -collected languages still have?
 
-- How does Zero Trust architecture work?
+- How does [[Zero Trust]] architecture work?
 - How would you respond to a ransomware attack?
 - What logs would you check during a security investigation?
 - How would you explain a cybersecurity risk to a non-technical client?
@@ -83,3 +83,7 @@ https://www.codegenes.net/blog/what-exactly-is-the-base-pointer-and-stack-pointe
 - What is on your CV (languages, tools, projects)
 - What is Modux and why do you want to work here?
 - Tell me about your FOSCAM project.
+
+
+RSA DEPRECATED LOOK UP
+DIFFIE HELLMEN

@@ -285,7 +285,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -309,6 +309,7 @@
   "lastOpenFiles": [
     "little endian.md",
     "Theory Questions.md",
+    "Zero Trust.md",
     "big endian.md",
     "Scenario Questions.md",
     "4. Extras/stripped binary.md",
@@ -334,7 +335,6 @@
     "3. Images/Pasted image 20260221215350.png",
     "4. Extras/memory fragmentation.md",
     "4. Extras/function call.md",
-    "4. Extras/use-after-free vulnerability.md",
     "2. SaN/SaN.base",
     "4. Extras/FOSCAM",
     "4. Extras",

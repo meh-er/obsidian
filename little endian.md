@@ -9,3 +9,5 @@ Address:   00   01   02   03
 Data:        78   56   34   12
 
 Here **0x78** is the least significant byte, placed at the lowest (00), followed by **0x56**, **0x34**, and **0x12** at the highest address (03)
+
+x64 architectures are ittle endian?????
