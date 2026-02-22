@@ -59,7 +59,7 @@ https://www.codegenes.net/blog/what-exactly-is-the-base-pointer-and-stack-pointe
 - What is the difference between [[static analysis]] and [[dynamic analysis]]?
 - What is a [[disassembler]]?
 - What is a [[stripped binary]]?
-- What is little endian vs big endian?
+- What is [[little endian]] vs [[big endian]]?
 
 - How would you analyse a suspicious binary?
 - How would you identify a function that checks a password?
