@@ -1,0 +1,24 @@
+- What happens if a canary value is changed?
+- If a database containing hashed passwords is leaked, what determines whether users are at risk?
+- A company stores passwords using SHA-256 but no salt, is this secure?
+- What security risks exist in public WiFi?
+- How would you secure a web application
+- How does input validation prevent attacks?
+- A login page returns different error messages for 'wrong password' and 'user not found'. Why could this be risky?
+- You're told to secure a REST API, what controls would you implement?
+
+- How would you analyse a suspicious binary?
+- How would you identify a function that checks a password?
+- You're given a binary that crashes with certain inputs. How would you investigate?
+- You find a strcmp comparing user input to a hardcoded string, what does that tell you?
+- A program checks a password length before validation, what vulnerabilities might exist?
+- What is the difference between code injection and code reuse attacks?
+- What is a format string vulnerability?
+- What security problems to garbage -collected languages still have?
+
+- How would you respond to a ransomware attack?
+- What logs would you check during a security investigation?
+- How would you explain a cybersecurity risk to a non-technical client?
+- A client says security is 'too expensive'. How would you respond?
+- A company has just moved to the cloud. What security steps should they take?
+- What is the correct response to a phishing email?

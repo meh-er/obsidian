@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Extras/memory fragmentation.md",
+                "file": "Theory Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "memory fragmentation"
+              "title": "Theory Questions"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "forward",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. Extras/memory fragmentation.md",
+                "file": "Theory Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for memory fragmentation"
+              "title": "Backlinks for Theory Questions"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. Extras/memory fragmentation.md",
+                "file": "Theory Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from memory fragmentation"
+              "title": "Outgoing links from Theory Questions"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. Extras/memory fragmentation.md",
+                "file": "Theory Questions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of memory fragmentation"
+              "title": "Outline of Theory Questions"
             }
           },
           {
@@ -208,7 +208,14 @@
   },
   "active": "9215e1d0ab914d81",
   "lastOpenFiles": [
+    "4. Extras/XSS.md",
     "Theory Questions.md",
+    "SQL Injection.md",
+    "Scenario Questions.md",
+    "4. Extras/Zero Trust.md",
+    "hashing.md",
+    "4. Extras/PIE.md",
+    "4. Extras/memory fragmentation.md",
     "4. Extras/use-after-free vulnerability.md",
     "4. Extras/base pointer.md",
     "4. Extras/instruction pointer.md",
@@ -219,21 +226,14 @@
     "user space.md",
     "process.md",
     "thread.md",
-    "4. Extras/Zero Trust.md",
     "4. Extras/heap.md",
     "4. Extras/stack.md",
     "4. Extras/Stack vs Heap memory allocation.md",
     "4. Extras/stripped binary.md",
     "4. Extras/little endian.md",
     "4. Extras/big endian.md",
-    "Scenario Questions.md",
     "Untitled.md",
     "4. Extras/disassembler.md",
-    "4. Extras/dynamic analysis.md",
-    "4. Extras/static analysis.md",
-    "4. Extras/secure cookies.md",
-    "4. Extras/XSS.md",
-    "4. Extras/NAT.md",
     "3. Images/Pasted image 20260221215531.png",
     "3. Images/Pasted image 20260221215350.png",
     "2. SaN/SaN.base",
