@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSI model.md",
+                "file": "2. SaN/Web Attack Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSI model"
+              "title": "Web Attack Basics"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"TQ_show_priority\"]",
+                "query": "sql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSI model.md",
+                "file": "2. SaN/Web Attack Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OSI model"
+              "title": "Backlinks for Web Attack Basics"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSI model.md",
+                "file": "2. SaN/Web Attack Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from OSI model"
+              "title": "Outgoing links from Web Attack Basics"
             }
           },
           {
@@ -186,12 +186,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,32 +208,34 @@
   },
   "active": "9215e1d0ab914d81",
   "lastOpenFiles": [
+    "2. SaN/SSL & TLS.md",
+    "2. SaN/Web Attack Basics.md",
+    "2. SaN/Shell Commands.md",
+    "2. SaN/Command Injection.md",
+    "4. Extras/SQL Injection.md",
+    "4. Extras/Untitled.md",
+    "Exam Questions.md",
     "Theory Questions.md",
-    "OSI model.md",
+    "Scenario Questions.md",
+    "3. Images/Pasted image 20260315163041.png",
+    "3. Images/Pasted image 20260315163323.png",
+    "2026-02-13.md",
+    "2026-02-19.md",
+    "4. Extras/ARP.md",
+    "4. Extras/DNS.md",
+    "4. Extras/OSI model.md",
     "4. Extras/ARP spoofing.md",
-    "ARP.md",
     "4. Extras/DNS spoofing.md",
-    "DNS.md",
     "4. Extras/hashing.md",
     "4. Extras/heap.md",
     "4. Extras/stack.md",
     "4. Extras/user space.md",
     "4. Extras/thread.md",
-    "4. Extras/SQL Injection.md",
     "4. Extras/process.md",
     "4. Extras/kernel space.md",
     "4. Extras/XSS.md",
-    "Scenario Questions.md",
     "4. Extras/Zero Trust.md",
     "4. Extras/PIE.md",
-    "4. Extras/memory fragmentation.md",
-    "4. Extras/use-after-free vulnerability.md",
-    "4. Extras/base pointer.md",
-    "4. Extras/instruction pointer.md",
-    "4. Extras/function call.md",
-    "4. Extras/stack frame.md",
-    "4. Extras/virtual memory.md",
-    "4. Extras/Stack vs Heap memory allocation.md",
     "3. Images/Pasted image 20260221215531.png",
     "3. Images/Pasted image 20260221215350.png",
     "2. SaN/SaN.base",
@@ -247,8 +248,6 @@
     "3. Images/Pasted image 20260217134725.png",
     "3. Images/Pasted image 20260217134531.png",
     "3. Images/Pasted image 20260217134122.png",
-    "3. Images/Pasted image 20260217133208.png",
-    "3. Images/Pasted image 20260217133150.png",
     "Untitled.canvas",
     "Untitled 1.base",
     "3. Images",

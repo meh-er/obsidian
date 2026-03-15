@@ -1,11 +1,11 @@
 #SaN 
 
-# SSL/TLS
-- Secure Sockets Layer (SSL) protocol was renamed to Transport Layer Security (TLS)
+# SSL/[[TLS]]
+- Secure Sockets Layer (SSL) protocol was renamed to Transport Layer Security ([[TLS]])
 - Provides encrypted communication and authentication using public keys
 ##### Encryption and Authentication
-- SSL/TLS supports various cryptographic algorithms
-	- RSA (Rivest-Shamir-Adleman)
+- SSL/[[TLS]] supports various cryptographic algorithms
+	- [[RSA]] (Rivest-Shamir-Adleman)
 	- DES (Data Encryption Standard)
 	- DH (Diffie-Hellman Key Exchange)
 - The specific cipher suite is negotiated at the start of the session.
@@ -23,7 +23,7 @@
 - If I trust the issuer's public key, I can trust the subject's public key
 
 #### The Internet Protocol with TLS
-The TLS layer runs between the Application and Transport layer
+The [[TLS]] layer runs between the Application and Transport layer
 The encryption is transparent to the Application layer
 Normal TCP and IP protocols etc. can be used at the low layers
 
@@ -41,7 +41,7 @@ Normal TCP and IP protocols etc. can be used at the low layers
 - Diffie-Hellman: Client and server derive a shared secret
 After the handshake, all communication is encrypted using the negotiated symmetric key.
 
-TLS Handshake Steps
+[[TLS]] Handshake Steps
 1. $C -> S : N_C$
 2. $S -> C : N_S, Cert_S$
 3. $C -> S : E_S(K_{seed}),({Hash_1})K_{CS}$
@@ -107,7 +107,7 @@ Session Key Generation
 - This lets an attacker **passively decrypt TLS traffic at scale**.
 
 #### Diffie-Hellman in TLS
-**Diffie-Hellman (DH) key exchange is widely used in TLS for forward secrecy:**
+**Diffie-Hellman (DH) key exchange is widely used in [[TLS]] for [[forward secrecy]]:**
 1. Client and server agree on a **prime number** *p* and a **generator** *g*.
 2. Client picks a secret *a*, computes **A = $g^a$** mod *p*, and sends **A** to the server.
 3. Server picks a secret *b*, computes **B = $g^b$** mod *p*, and sends *B* to the client.
@@ -141,7 +141,7 @@ Session Key Generation
 **Why LogJam Works**
 1. **Many servers reuse the same small set of DH primes.**
 	- The NSA (and others) can precompute discrete logs for these primes.
-2. Export-grade cryptography is still widely supported.
+2. Export-grade [[cryptography]] is still widely supported.
 	- These 'weak' DH groups were left in for legacy reasons.
 	- Attackers can downgrade connections to force weak groups.
 3. No authentication of the DH parameters.
@@ -157,7 +157,7 @@ Mitigation Steps:
 
 Industry Response:
 - Browser vendors (Chrome, Firefox) removed support for weak DH groups.
-- TLS 1.3 removes support for static DH and export-grade cryptography. 
+- TLS 1.3 removes support for static DH and export-grade [[cryptography]]. 
 #### Conclusion
 - TLS secures communication, but only when **properly implemented and configured**.
 - Weak ciphers, flawed implementations and misconfigurations lead to major attacks (**HeartBleed, LogJam, Cipher Downgrade**)
@@ -204,4 +204,3 @@ Your website provider knows:
 - Onion Routing ensures that your message is **securely encrypted in layers** and routed through multiple nodes.
 - Each node **only knows the previous and next hop**, ensuring **no single entity** can trace the full path.
 - The **Tor network** implements this protocol.
-- 

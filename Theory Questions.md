@@ -51,6 +51,7 @@
 
 
 
+
 https://www.codegenes.net/blog/what-exactly-is-the-base-pointer-and-stack-pointer-to-what-do-they-point/#3-base-pointer-ebp-the-stack-frame-anchor
 
 - What is the difference between [[static analysis]] and [[dynamic analysis]]?
