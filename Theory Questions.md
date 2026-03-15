@@ -38,6 +38,7 @@
 - *What is port scanning and how can it be detected?
 - What is [[NAT]] and does it provide security?
 - How does [[TLS]] establish a secure session?
+- What is the [[OSI model]]
 
 
 - What is [[SQL Injection]] and how do you prevent it?
