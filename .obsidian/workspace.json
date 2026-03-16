@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memory Management.md",
+                "file": "4. Extras/kernel space.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Memory Management"
+              "title": "kernel space"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memory Management.md",
+                "file": "4. Extras/kernel space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Memory Management"
+              "title": "Backlinks for kernel space"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Memory Management.md",
+                "file": "4. Extras/kernel space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Memory Management"
+              "title": "Outgoing links from kernel space"
             }
           },
           {
@@ -215,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -237,8 +237,9 @@
   },
   "active": "5aa075e1d431102b",
   "lastOpenFiles": [
-    "1. OSSP/0Memory Swapping, fragmentation and paging.md",
     "Memory Management.md",
+    "4. Extras/kernel space.md",
+    "1. OSSP/0Memory Swapping, fragmentation and paging.md",
     "1. OSSP/OSSP.base",
     "1. OSSP/Concurrent programming.md",
     "1. OSSP/Memory Management.md",
