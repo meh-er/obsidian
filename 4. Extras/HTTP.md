@@ -7,7 +7,7 @@ HTTP = Hyper Text Transfer Protocol
 	- Request methods: GET, POST, PUT, DELETE
 - Messages are text-based, in lines
 - **Stateless** client-side design
-	- Quickly became a problem, hence [[cookies]]
+	- Quickly became a problem, hence [[Cookies]]
 - HTTP is entirely separate from HTML
 
 #### HTTP Communication
