@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Extras/kernel space.md",
+                "file": "1. OSSP/Writing kernel programs in C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kernel space"
+              "title": "Writing kernel programs in C"
             }
           }
         ],
@@ -82,8 +82,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "System Call",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. Extras/kernel space.md",
+                "file": "1. OSSP/Writing kernel programs in C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for kernel space"
+              "title": "Backlinks for Writing kernel programs in C"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. Extras/kernel space.md",
+                "file": "1. OSSP/Writing kernel programs in C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from kernel space"
+              "title": "Outgoing links from Writing kernel programs in C"
             }
           },
           {
@@ -237,17 +237,20 @@
   },
   "active": "5aa075e1d431102b",
   "lastOpenFiles": [
-    "Memory Management.md",
     "4. Extras/kernel space.md",
+    "1. OSSP/Writing kernel programs in C.md",
+    "1. OSSP/0Context switching.md",
+    "1. OSSP/0Static and global variables, variable scope.md",
+    "1. OSSP/system call.md",
+    "4. Extras/HW.md",
+    "1. OSSP/Memory Management.md",
     "1. OSSP/0Memory Swapping, fragmentation and paging.md",
     "1. OSSP/OSSP.base",
     "1. OSSP/Concurrent programming.md",
     "1. OSSP/Memory Management.md",
-    "1. OSSP/Writing kernel programs in C.md",
     "1. OSSP/von Neumann architecture.md",
     "1. OSSP/Virtual Machines.md",
     "1. OSSP/0The critical-section problem.md",
-    "1. OSSP/System Calls.md",
     "1. OSSP/Strings in C.md",
     "1. OSSP/Sockets.md",
     "1. OSSP/0Scheduling processes.md",
@@ -258,12 +261,9 @@
     "1. OSSP/File handling in C (FILE, fopen and fclose).md",
     "1. OSSP/Dynamic memory management in C (`malloc` and `free`.md",
     "1. OSSP/0Disk access.md",
-    "1. OSSP/0Context switching.md",
     "1. OSSP/Basic C syntax, compiling programs.md",
-    "1. OSSP/0Static and global variables, variable scope.md",
     "Revision Questions.md",
     "Theory Questions.md",
-    "4. Extras/Cookies.md",
     "3. Images/Pasted image 20260315234745.png",
     "3. Images/Pasted image 20260315234547.png",
     "3. Images/Pasted image 20260315234355.png",
