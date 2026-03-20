@@ -60,3 +60,15 @@ Consider that the producer and consumer execute the `count++` and `count--` arou
 	- **Mutual Exclusion** - If process, $P_i$, is in its critical section (i.e. where shared variables could be altered inconsistently), then no other processes can be in this critical section
 	- **Progress** - no process outside of the critical section (i.e. in the *remainder* section) should block a process waiting to enter.
 	- **Bounded Waiting** - A bound must exist on the number of times that other processes are allowed to enter the critical section after a process has made a request to enter its critical section and before that request is granted (i.e. it must be fair, so one poor process is not always waiting behind the others)
+- Assume that each process executes at a nonzero speed
+- No assumption concerning relative speed of the *N* processes
+
+
+### Peterson's Solution
+- Two process solution
+- Assume that the CPU's register LOAD and STORE instructions are atomic (*not realistic* on modern CPUs, educational example)
+- The two processes share two variables:
+	- `int turn;`
+	- `Boolean wants_in[2]`
+- The variable `turn` indicates whose turn it is to enter the critical section
+- The `wants_in` array is used to indicate if a process is ready to enter the critical section. `wants_in[i] = true` implies that process $P_i$ is ready.
