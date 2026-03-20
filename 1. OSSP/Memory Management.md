@@ -14,7 +14,7 @@ Address mapping can be taken one step further: dynamic linking: use only one cop
 
 ### Swapping
 Swapping is a memory management technique where processes are temporarily moved between main memory and secondary storage to free up memory for other processes.
-If memory demand is too high, memory of some [[process]] is transferred to **disk**.  This is usually combined with [[0Scheduling processes]]; as low priority processes are swapped out.
+If memory demand is too high, memory of some [[process]] is transferred to **disk**.  This is usually combined with [[Scheduling processes]]; as low priority processes are swapped out.
 - Allows multiple processes to run efficiently.
 - Lower-priority processes can be swapped out for higher-priority ones.
 - Swapped-out processes resume when loaded back into memory.
