@@ -72,3 +72,86 @@ Consider that the producer and consumer execute the `count++` and `count--` arou
 	- `Boolean wants_in[2]`
 - The variable `turn` indicates whose turn it is to enter the critical section
 - The `wants_in` array is used to indicate if a process is ready to enter the critical section. `wants_in[i] = true` implies that process $P_i$ is ready.
+
+```
+do {
+	wants_in[i] = TRUE; // I want access
+	turn = j; // but, please you go first
+	while (wants_in[j] && turn == j); //if you're waiting and its your turn, i will wait
+	[critical_section]
+	wants_in[i] = FALSE; //I no longer want access
+	[remainder section]
+	} while (TRUE);
+```
+
+While both processes are interested, they achieve fairness through the `turn` variable, which causes their access to alternate.
+
+Interesting, but:
+- Aside from the question of CPU instruction atomicity, how can we support more than two competing processes?
+- Also, if we were being pedantic, we could argue that a process may be left to wait unnecessarily if a context switch occurs only after another process leaves the remainder section but before it politely offers the turn to our first waiting process.
+
+### Synchronisation Hardware
+- Many systems provide hardware support for critical section
+- Uniprocessors - could disable interrupts
+	- Currently running code would execute without preemption
+	- Generally too inefficient on multiprocessor systems
+	- Delay in one processor telling others to disable their interrupts.
+- Modern machines provide the special atomic hardware instructions (Atomic = non-interruptible) `TestAndSet` or `Swap` which achieve the same goal:
+	- `TestAndSet`: Test memory address (i.e. read it) and set it in one instruction
+	- `Swap`: Swap contents of two memory address in one instruction
+- We can use these to implement simple locks to realise mutual exclusion.
+
+#### Solution using locks:
+- The general pattern for using locks is:
+```
+do {
+	[acquire lock]
+		[critical section]
+	[release lock]
+		[remainder section]
+	} while (TRUE);
+```
+
+
+#### TestAndSet Instruction
+- High-level definition of the atomic CPU instruction:
+```
+boolean TestAndSet (boolean *target) {
+	boolean original = *target; // store og value
+	*target = TRUE; // set var to TRUE
+	return original; // return og value
+}
+```
+
+- In a nutshell: This single CPU instruction sets a variable to TRUE and returns the original value
+- This is useful because, if it returns FALSE, we know that only our thread has changed the value from FALSE to TRUE; if it returns TRUE, we know we haven't changed the value.
+##### Solution using TestAndSet
+- Shared boolean variable `lock`, initialized to false.
+- Solution:
+```
+do {
+	while (TestAndSet(&lock); // wait until lock changed to true
+		[critical section]
+	lock = FALSE; // release lock
+		[remainder section]
+	} while (TRUE);
+```
+- Note, though, that this achieves mutual exclusion but not *bounded waiting* - one process could potentially wait forever due to the unpredictability of context switching
+
+#### Bounded-waiting Mutual Exclusion with TestAndSet()
+- All data structures are initialised to FALSE.
+- `wanits_in[]` is an array of waiting flags, one of each process
+- `lock` is a boolean variable used to lock the critical section.
+
+![[Pasted image 20260321220346.png]]
+
+### Inefficient Spinning
+- Consider the simple mutual exclusion mechanism we just saw (TestAndSet solution)
+- This guarantees mutual exclusion but with a high cost: that while loop spins constantly (using up CPU cycles) until manages to enter the critical section.
+- This is a huge waste of CPU cycles and is not acceptable, particularly for user processes where the critical section may be occupied for some time.
+
+#### Sleep and Wakeup
+- Rather than having a process spin around and around, checking if it can proceed into the critical section, suppose we implement some mechanism whereby it sends itself to sleep and then is awoken only when there is a chance it can proceed.
+- Functions such as `sleep()` and `wakeup()` are often available via a threading library or as kernel service calls
+
+- Somehow, we need to make sure that when a process decides that it will go to sleep (if it failed to get the lock) it actually goes to sleep without interruption, so the wake-up signal is not missed by the not-yet-sleeping process
