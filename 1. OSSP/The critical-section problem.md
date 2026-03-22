@@ -154,4 +154,57 @@ do {
 - Rather than having a process spin around and around, checking if it can proceed into the critical section, suppose we implement some mechanism whereby it sends itself to sleep and then is awoken only when there is a chance it can proceed.
 - Functions such as `sleep()` and `wakeup()` are often available via a threading library or as kernel service calls
 
-- Somehow, we need to make sure that when a process decides that it will go to sleep (if it failed to get the lock) it actually goes to sleep without interruption, so the wake-up signal is not missed by the not-yet-sleeping process
+- Somehow, we need to make sure that when a process decides that it will go to sleep (if it failed to get the lock) it actually goes to sleep without interruption, so the wake-up signal is not missed by the not-yet-sleeping process.
+- Perhaps we could do this by making use of another lock variable, say `deciding_to_sleep`.
+- Since we now have two locks, for clarity, let's rename `lock` to `mutex_lock`.
+
+#### Sleeping with the Lock
+- As we said before, we need to decide to sleep and then sleep in an atomic action (with respect to other threads/ processes)
+- But in the previous example, when a thread goes to sleep it keeps hold of the `deciding_to_sleep` lock which sooner or later will result in deadlock!
+- And if we release the `deciding_to_sleep` lock immediately before sleeping, then we have not solved the original problem.
+- The solution to this problem implemented in modern operating systems, such as Linux, is to release the lock *during* the kernel service call `sleep()`, such that it is released prior to the context switch, with a guarantee there will be no interruption.
+- The lock is then reacquired upon wakeup, prior to the return from the `sleep()` call.
+- Since we have seen how this can get all very complicated when we introduce the idea of sleeping (to avoid wasteful spinning), kernels often implement a sleeping lock, called a *semaphore*, which hides the gore from us.
+
+### Semaphores
+- Synchronisation tool, that
+	- Simplifies synchronisation for the programmer
+	- Does not require (much) busy waiting: We don't busy-wait for the critical section, usually only to achieve atomicity to check if we need to sleep or not, *etc*
+	- Can guarantee *bounded waiting time* and *progress*.
+- Consists of:
+	- A semaphore type `S`, that records a list of waiting processes and an integer
+	- Two standard atomic (<- very important) operations by which to modify `S:wait()` and `signal()`
+	- Originally called `P()` and `V()` based on the equivalent Dutch words.
+- Works like this:
+	- The semaphore is initialised with a count value of the maximum number of processes allowed in the critical section at the same time.
+	- When a process calls `wait()`, if count is zero, it adds itself to the list of sleepers and blocks, else it decrements count and enters the critical section
+	- When a process exits the critical section it calls `signal()`, which increments count and issues a wakeup call to the process at the head of the list, if there is such a process
+		- It is a the use of ordered wake-ups (e.g. FIFO) that makes semaphores support bounded (.e. fair) waiting.
+- We can describe a particular semaphore as:
+	- A Counting semaphore - integer value can range over an unrestricted domain (*e.g.* allow at most N threads to read a database, *etc*)
+	- A Binary semaphore - integer value can range only between 0 and 1
+		- Also known as mutex locks, since ensure mutual exclusion
+		- Basically, it is a counting semaphore initialised to 1
+
+```
+Semaphore mutex; // Initialised to 1
+do {
+	wait(mutex); // unlike the pure spin-lock, blocks
+		[critical section]
+	signal(mutex);
+		[remainder section]
+} while (TRUE);
+```
+
+#### State and Wait
+- Note that, here, we decrement the wait counter before blocking
+- This does not alter functionality but has the useful side-effect that the negative count value reveals how many processes are currently blocked on the semaphore.
+
+![[Pasted image 20260321234439.png]]
+
+## Summary
+- Need to ensure that certain parts of the code (critical sections) are executed in a specified order
+- Software solutions exist, but complexity very high
+- Need atomic test-and-set operation, supported by hardware
+- Can build synchronisation primitives (semaphores, locks) on top of test-and-set operation
+- Linux kernel implements these primitives

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. OSSP/0The critical-section problem.md",
+                "file": "1. OSSP/Linux Device Drivers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0The critical-section problem"
+              "title": "Linux Device Drivers"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. OSSP/0The critical-section problem.md",
+                "file": "1. OSSP/Linux Device Drivers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 0The critical-section problem"
+              "title": "Backlinks for Linux Device Drivers"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. OSSP/0The critical-section problem.md",
+                "file": "1. OSSP/Linux Device Drivers.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 0The critical-section problem"
+              "title": "Outgoing links from Linux Device Drivers"
             }
           },
           {
@@ -224,43 +224,43 @@
   },
   "active": "4109f545d3e502da",
   "lastOpenFiles": [
-    "Pasted image 20260321220346.png",
-    "1. OSSP/0Disk access.md",
-    "1. OSSP/0The critical-section problem.md",
-    "1. OSSP/0File systems.md",
+    "Theory Questions.md",
+    "Scenario Questions.md",
+    "Revision Questions.md",
+    "1. OSSP/Linux Device Drivers.md",
+    "2026-02-13.md",
+    "W9 Web Security.md",
+    "1. OSSP/OSSP.base",
+    "1. OSSP/Operating System.md",
+    "1. OSSP/0Static and global variables, variable scope.md",
+    "1. OSSP/File systems.md",
+    "1. OSSP/Disk access.md",
+    "1. OSSP/The critical-section problem.md",
+    "3. Images/Pasted image 20260321234439.png",
+    "3. Images/Pasted image 20260321220346.png",
     "1. OSSP/Scheduling processes.md",
-    "Pasted image 20260320170307.png",
-    "Pasted image 20260320164827.png",
+    "3. Images/Pasted image 20260320170307.png",
+    "3. Images/Pasted image 20260320164827.png",
     "1. OSSP/Context switching.md",
     "4. Extras/process.md",
-    "W9 Web Security.md",
     "2. SaN/Web Attack Basics.md",
     "1. OSSP/Writing kernel programs in C.md",
     "4. Extras/kernel space.md",
-    "1. OSSP/0Static and global variables, variable scope.md",
     "1. OSSP/system call.md",
     "4. Extras/HW.md",
     "1. OSSP/Memory Management.md",
     "1. OSSP/0Memory Swapping, fragmentation and paging.md",
-    "1. OSSP/OSSP.base",
     "1. OSSP/Concurrent programming.md",
     "1. OSSP/Memory Management.md",
     "1. OSSP/von Neumann architecture.md",
     "1. OSSP/Virtual Machines.md",
     "1. OSSP/Strings in C.md",
-    "1. OSSP/Sockets.md",
-    "1. OSSP/Process concept.md",
-    "1. OSSP/Pointers and memory.md",
-    "1. OSSP/Operating System.md",
-    "1. OSSP/File handling in C (FILE, fopen and fclose).md",
     "3. Images/Pasted image 20260315234745.png",
     "3. Images/Pasted image 20260315234547.png",
     "3. Images/Pasted image 20260315234355.png",
     "3. Images/Pasted image 20260315223642.png",
     "3. Images/Pasted image 20260315223624.png",
     "3. Images/Pasted image 20260315223556.png",
-    "3. Images/Pasted image 20260315163041.png",
-    "3. Images/Pasted image 20260315163323.png",
     "2. SaN/SaN.base",
     "4. Extras/FOSCAM",
     "4. Extras",
