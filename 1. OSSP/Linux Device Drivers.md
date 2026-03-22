@@ -9,4 +9,8 @@ Have special file in /dev associated with it, together with give system calls:
 - `read`: read from device
 - `write`: write to device
 - `ioctl`: Perform operations on device (optional)
-- `close`: Male device available
+- `close`: Make device available
+
+#### Categorising devices
+Kernel also keeps track of
+- **Physical dependencies** between devices.
