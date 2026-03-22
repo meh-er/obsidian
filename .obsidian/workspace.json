@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. OSSP/Linux Device Drivers.md",
+                "file": "W9 Web Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Device Drivers"
+              "title": "W9 Web Security"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. OSSP/Linux Device Drivers.md",
+                "file": "W9 Web Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linux Device Drivers"
+              "title": "Backlinks for W9 Web Security"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. OSSP/Linux Device Drivers.md",
+                "file": "W9 Web Security.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Linux Device Drivers"
+              "title": "Outgoing links from W9 Web Security"
             }
           },
           {
@@ -224,13 +224,15 @@
   },
   "active": "4109f545d3e502da",
   "lastOpenFiles": [
+    "2. SaN/SaN.base",
+    "1. OSSP/Android specifics.md",
+    "1. OSSP/OSSP.base",
+    "1. OSSP/Linux Device Drivers.md",
     "Theory Questions.md",
     "Scenario Questions.md",
     "Revision Questions.md",
-    "1. OSSP/Linux Device Drivers.md",
     "2026-02-13.md",
     "W9 Web Security.md",
-    "1. OSSP/OSSP.base",
     "1. OSSP/Operating System.md",
     "1. OSSP/0Static and global variables, variable scope.md",
     "1. OSSP/File systems.md",
@@ -253,15 +255,12 @@
     "1. OSSP/Concurrent programming.md",
     "1. OSSP/Memory Management.md",
     "1. OSSP/von Neumann architecture.md",
-    "1. OSSP/Virtual Machines.md",
-    "1. OSSP/Strings in C.md",
     "3. Images/Pasted image 20260315234745.png",
     "3. Images/Pasted image 20260315234547.png",
     "3. Images/Pasted image 20260315234355.png",
     "3. Images/Pasted image 20260315223642.png",
     "3. Images/Pasted image 20260315223624.png",
     "3. Images/Pasted image 20260315223556.png",
-    "2. SaN/SaN.base",
     "4. Extras/FOSCAM",
     "4. Extras",
     "Untitled.canvas",

@@ -16,7 +16,6 @@ Padlock on website
 - What guarantees a padlock connection? Nobody knows :(
 - Belief that padlock offers an assurance of honesty and correctness
 
-
 ### xss
 Inject client-side code into web pages viewed by other users
 Underlying issue: input/output validation - never trust user's input!!!!!
@@ -71,4 +70,7 @@ Unicode makes everything harder because you need to parse the sequences yourself
 - A lot of standard constructions for securin web forms absolutely rely on instead of using SHA512(P,S), but its easy to mess up
 - **Best hash is SHA512/256**
 - 
-- 
+
+
+### Cross-site Scripting (XSS):
+Inject client-side code into 
