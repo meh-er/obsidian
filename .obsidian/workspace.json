@@ -25,13 +25,14 @@
             "id": "4109f545d3e502da",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "2. SaN/SaN.base",
-                "viewName": "Table"
+                "file": "XSS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "SaN"
+              "icon": "lucide-file",
+              "title": "XSS"
             }
           }
         ],
@@ -223,8 +224,9 @@
   },
   "active": "4109f545d3e502da",
   "lastOpenFiles": [
-    "W9 Web Security.md",
     "2. SaN/SaN.base",
+    "XSS.md",
+    "W9 Web Security.md",
     "1. OSSP/Android specifics.md",
     "1. OSSP/OSSP.base",
     "1. OSSP/Linux Device Drivers.md",
@@ -253,7 +255,6 @@
     "1. OSSP/0Memory Swapping, fragmentation and paging.md",
     "1. OSSP/Concurrent programming.md",
     "1. OSSP/Memory Management.md",
-    "1. OSSP/von Neumann architecture.md",
     "3. Images/Pasted image 20260315234745.png",
     "3. Images/Pasted image 20260315234547.png",
     "3. Images/Pasted image 20260315234355.png",

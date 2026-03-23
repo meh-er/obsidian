@@ -42,7 +42,7 @@
 
 
 - What is [[SQL Injection]] and how do you prevent it?
-- What is Cross-Site Scripting ([[XSS]])?
+- What is Cross-Site Scripting ([[4. Extras/XSS]])?
 - How do prepared statements prevent [[SQL Injection]] ?
 - What are [[secure cookies]]?
 - What is an authentication bypass vulnerability?
