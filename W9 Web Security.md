@@ -73,4 +73,4 @@ Unicode makes everything harder because you need to parse the sequences yourself
 
 
 ### Cross-site Scripting (XSS):
-Inject client-side code into 
+Inject client-side code into web-p ages viewed by other

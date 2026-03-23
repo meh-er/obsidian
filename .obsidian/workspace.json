@@ -25,14 +25,13 @@
             "id": "4109f545d3e502da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "W9 Web Security.md",
-                "mode": "source",
-                "source": false
+                "file": "2. SaN/SaN.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "W9 Web Security"
+              "icon": "lucide-table",
+              "title": "SaN"
             }
           }
         ],
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "W9 Web Security.md",
+                "file": "2. SaN/SaN.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for W9 Web Security"
+              "title": "Backlinks for SaN"
             }
           },
           {
@@ -128,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "W9 Web Security.md",
+                "file": "2. SaN/SaN.base",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from W9 Web Security"
+              "title": "Outgoing links from SaN"
             }
           },
           {
@@ -224,6 +223,7 @@
   },
   "active": "4109f545d3e502da",
   "lastOpenFiles": [
+    "W9 Web Security.md",
     "2. SaN/SaN.base",
     "1. OSSP/Android specifics.md",
     "1. OSSP/OSSP.base",
@@ -232,7 +232,6 @@
     "Scenario Questions.md",
     "Revision Questions.md",
     "2026-02-13.md",
-    "W9 Web Security.md",
     "1. OSSP/Operating System.md",
     "1. OSSP/0Static and global variables, variable scope.md",
     "1. OSSP/File systems.md",
