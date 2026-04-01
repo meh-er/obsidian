@@ -26,7 +26,7 @@ Goals:
 	- ghidra
 - [[Decompiler]]
 	- ghidra
-- Fuxxing
+- Fuzzing
 	- American fuzzy lock??????????
 
 Other tools: 

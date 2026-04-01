@@ -1,6 +1,6 @@
-- What happens if a canary value is changed?
+- What happens if a [[stack canary]] value is changed?
 - If a database containing hashed passwords is leaked, what determines whether users are at risk?
-- A company stores passwords using SHA-256 but no salt, is this secure?
+- A company stores passwords using SHA-256 but no salt, is this secure and why?
 - What security risks exist in public WiFi?
 - How would you secure a web application
 - How does input validation prevent attacks?
