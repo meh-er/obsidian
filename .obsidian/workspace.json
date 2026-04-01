@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "salt",
+                "query": "encryption",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -224,9 +224,11 @@
   },
   "active": "4109f545d3e502da",
   "lastOpenFiles": [
-    "4. Extras/salting.md",
-    "2. SaN/Access Control.md",
     "Theory Questions.md",
+    "4. Extras/TLS.md",
+    "2. SaN/Cryptography.md",
+    "2. SaN/Access Control.md",
+    "4. Extras/salting.md",
     "2. SaN/Reverse Engineering.md",
     "2. SaN/Command Injection.md",
     "2. SaN/SaN.base",
@@ -238,7 +240,6 @@
     "2. SaN/Hashes.md",
     "XSS.md",
     "2. SaN/Web Attack Basics.md",
-    "2. SaN/Cryptography.md",
     "4. Extras/stack canary.md",
     "Revision Questions.md",
     "x86-64 Architecture.md",
@@ -252,7 +253,6 @@
     "1. OSSP/Linux Device Drivers.md",
     "2026-02-13.md",
     "1. OSSP/Operating System.md",
-    "1. OSSP/0Static and global variables, variable scope.md",
     "3. Images/Pasted image 20260321234439.png",
     "3. Images/Pasted image 20260321220346.png",
     "3. Images/Pasted image 20260320170307.png",

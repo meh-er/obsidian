@@ -81,7 +81,7 @@ Access:
 - Hashcat
     - Claims to be the fastest/best
 - Ophacrack
-    - State of thh art, free, rainbow table software
+    - State of the art, free, rainbow table software
 
 **Phishing:** Username and password captured by attackers via malicious links (e.g. fake bank website)
 
