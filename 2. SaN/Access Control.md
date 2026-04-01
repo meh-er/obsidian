@@ -67,7 +67,7 @@ Access:
 - Gives rise to devastating attack (Pass the Hash)
     - Obtain user credentials for one host in the domain (e.g. phishing)
     - Exploit vulnerability to become local administrator
-    - Install process which waits for domain admin to log into this achine
+    - Install process which waits for domain admin to log into this machine
     - Extract cached hash for domain admin
     - Login as domain admin
 - Defence mechanisms exist but are painful to use
