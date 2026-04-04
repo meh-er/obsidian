@@ -1,0 +1,7 @@
+#SaN 
+
+**HMAC** (Hash-based Message Authentication Code) is a type of message authentication code (**MAC**) that is acquired by executing a cryptographic hash function on the data that is to be authenticated, and a secret shared key. Like any **MAC**, it is used for both **data integrity** and **authentication**. The cryptographic hash function may be **MD5, SHA1**, or **SHA256**. Digital signatures are very similar to HMACs i.e. they both employ a hash function and a shared key. but HMAC uses a **symmetric key**.  
+  
+The client makes a new HMAC for every request. When a client requests the **server**, it hashes the requested data with a private key and sends it as a part of the request. Both the message and key are **hashed** in **separate steps** making it secure. When the server receives the **request**, it makes its own HMAC. Both **HMACs** are compared and if both are **equal**, The client is considered legitimate.  
+  
+In HMAC, we have to apply the hash function along with a key on the **plaintext**. The hash function will be applied to plaintext message. But before applying, we have to compute **S** bits and then append it to plaintext and after _that_ apply the hash function. For generating those **S bits** we make use of a key that is shared between the sender and receiver.

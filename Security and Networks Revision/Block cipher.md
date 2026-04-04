@@ -1,0 +1,3 @@
+#SaN 
+
+**Block cipher** is a symmetric key cipher that transforms the plaintext into ciphertext by **taking the plaintext** block by block (usually 64 or 128 bits at a time). In block ciphers, **subsitution** combined with **permutation** forms the operation to achieve **encryption**. Block ciphers employ several modes such as ECB (Electronic Codebook) and CBC (Cipher Block Chaining) e.g. AES, DES, Blowfish

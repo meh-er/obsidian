@@ -5,7 +5,7 @@
 - Provides encrypted communication and authentication using public keys
 ##### Encryption and Authentication
 - SSL/[[TLS]] supports various cryptographic algorithms
-	- [[RSA]] (Rivest-Shamir-Adleman)
+	- [[2. SaN/RSA]] (Rivest-Shamir-Adleman)
 	- DES (Data Encryption Standard)
 	- DH (Diffie-Hellman Key Exchange)
 - The specific cipher suite is negotiated at the start of the session.
