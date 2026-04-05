@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "x86-64 Architecture.md",
+                "file": "Security and Networks Revision/Heartbleed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "x86-64 Architecture"
+              "title": "Heartbleed"
             }
           },
           {
@@ -27,26 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security and Networks Revision/hash functions.md",
+                "file": "2026-04-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hash functions"
-            }
-          },
-          {
-            "id": "9a1c1d19302477cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. SaN/Hashes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hashes"
+              "title": "2026-04-05"
             }
           }
         ],
@@ -82,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hmac",
+                "query": "logjam",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security and Networks Revision/hash functions.md",
+                "file": "2026-04-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for hash functions"
+              "title": "Backlinks for 2026-04-05"
             }
           },
           {
@@ -142,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security and Networks Revision/hash functions.md",
+                "file": "2026-04-05.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from hash functions"
+              "title": "Outgoing links from 2026-04-05"
             }
           },
           {
@@ -214,8 +200,7 @@
               "title": "Timeline"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -235,47 +220,47 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "9b160cc0dd5f342b",
+  "active": "8439cc4f8864dc6d",
   "lastOpenFiles": [
-    "Security and Networks Revision/MD5.md",
-    "Security and Networks Revision/hash functions.md",
-    "Security and Networks Revision/SHA1 & SHA2.md",
-    "Security and Networks Revision/SHA-256.md",
-    "Security and Networks Revision/One-time pad.md",
-    "Security and Networks Revision/DES.md",
-    "4. Extras/AES.md",
-    "Security and Networks Revision/Block Cipher Modes of Operation.md",
-    "Security and Networks Revision/salt.md",
-    "Security and Networks Revision/Stream cipher.md",
-    "Security and Networks Revision/Block cipher.md",
-    "Security and Networks Revision/CIA triad.md",
-    "Security and Networks Revision/Access Control Matrix.md",
-    "Security and Networks Revision/SUID.md",
-    "Security and Networks Revision/RUID.md",
-    "Security and Networks Revision/HMAC.md",
-    "Security and Networks Revision/EUID.md",
-    "Security and Networks Revision/Intialization Vector (IV).md",
-    "Security and Networks Revision/UID.md",
-    "Security and Networks Revision/Digital Signatures.md",
-    "Security and Networks Revision/RSA.md",
-    "Security and Networks Revision/Man-In-The-Middle (MITM).md",
-    "Security and Networks Revision/Diffie Hellman.md",
-    "x86-64 Architecture.md",
-    "Security and Networks Revision",
-    "4. Extras/hashing.md",
     "2. SaN/Hashes.md",
+    "Security and Networks Revision/Heartbleed.md",
+    "Security and Networks Revision/Logjam.md",
+    "2026-04-05.md",
+    "Security and Networks Revision/Reverse Engineering.md",
+    "Security and Networks Revision/x86-64 Architecture.md",
+    "Security and Networks Revision/Redirects.md",
+    "Security and Networks Revision/Deployment.md",
+    "4. Extras/SQL Injection.md",
+    "Security and Networks Revision/XSS.md",
+    "Security and Networks Revision/Web Security.md",
+    "4. Extras/XSS.md",
+    "Security and Networks Revision/Command Injection.md",
+    "Security and Networks Revision/Cookies.md",
+    "Security and Networks Revision/HTTP.md",
+    "Security and Networks Revision/Needham-Schroeder-Lowe Public Key Protocol.md",
+    "Security and Networks Revision/SSL, TLS.md",
+    "Security and Networks Revision/digital certificate.md",
+    "3. Images/Pasted image 20260405163241.png",
+    "3. Images/Pasted image 20260405163013.png",
+    "2. SaN/The Internet Protocol Stack - Layer Functions.md",
+    "Security and Networks Revision/Forward Secrecy.md",
+    "Diffie-Hellman.md",
+    "Security and Networks Revision/Nonce.md",
+    "Pasted image 20260405124748.png",
+    "2. SaN/Internet.md",
+    "2026-02-19.md",
+    "Security and Networks Revision/IP Packet.md",
+    "2. SaN/Week 1 SaN.md",
+    "3. Images/Pasted image 20260405124128.png",
+    "3. Images/Pasted image 20260405123635.png",
+    "Security and Networks Revision",
     "2. SaN/SaN.base",
-    "Pasted image 20260323142244.png",
+    "3. Images/Pasted image 20260323142244.png",
     "1. OSSP/OSSP.base",
     "3. Images/Pasted image 20260321234439.png",
     "3. Images/Pasted image 20260321220346.png",
     "3. Images/Pasted image 20260320170307.png",
     "3. Images/Pasted image 20260320164827.png",
-    "3. Images/Pasted image 20260315234745.png",
-    "3. Images/Pasted image 20260315234547.png",
-    "3. Images/Pasted image 20260315234355.png",
-    "3. Images/Pasted image 20260315223642.png",
-    "3. Images/Pasted image 20260315223624.png",
     "4. Extras/FOSCAM",
     "4. Extras",
     "Untitled.canvas",

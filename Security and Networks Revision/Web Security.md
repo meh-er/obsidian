@@ -19,9 +19,9 @@ Padlock on website
 ### xss
 Inject client-side code into web pages viewed by other users
 Underlying issue: input/output validation - never trust user's input!!!!!
-- **Stored [[4. Extras/XSS]]**
-- Reflected [[4. Extras/XSS]] - occurs when injected malicious code is not stored on the server, but is immediately is played on the visited page
-#### Session Hijacking with [[4. Extras/XSS]]
+- **Stored [[XSS]]**
+- Reflected [[XSS]] - occurs when injected malicious code is not stored on the server, but is immediately is played on the visited page
+#### Session Hijacking with [[XSS]]
 document.location.replace => redirect using javascript - redirects victim's browser to attacker's site, passing cookie
 Might
 also pass currently visited website
@@ -73,4 +73,4 @@ Unicode makes everything harder because you need to parse the sequences yourself
 
 
 ### Cross-site Scripting (XSS):
-Inject client-side code into web-p ages viewed by other
+Inject client-side code into web-p ages viewed by other users.

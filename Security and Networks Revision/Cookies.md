@@ -29,7 +29,7 @@ However:
 ![[Pasted image 20260315234355.png]]
 
 #### Secure Cookies
-- Provided the browser **obeys** the **secure** **attribute**, the user agent will include the cookie in a HTTP request only if the request is transmitted over a secure channel (typically [[HTTP]] over [[TLS]]).
+- Provided the browser **obeys** the **secure** **attribute**, the user agent will include the cookie in a HTTP request only if the request is transmitted over a secure channel (typically [[4. Extras/HTTP]] over [[TLS]]).
 
 #### Expiry Dates
 ![[Pasted image 20260315234547.png]]

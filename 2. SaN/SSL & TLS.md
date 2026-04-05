@@ -5,7 +5,7 @@
 - Provides encrypted communication and authentication using public keys
 ##### Encryption and Authentication
 - SSL/[[TLS]] supports various cryptographic algorithms
-	- [[2. SaN/RSA]] (Rivest-Shamir-Adleman)
+	- [[RSA]] (Rivest-Shamir-Adleman)
 	- DES (Data Encryption Standard)
 	- DH (Diffie-Hellman Key Exchange)
 - The specific cipher suite is negotiated at the start of the session.
@@ -107,7 +107,7 @@ Session Key Generation
 - This lets an attacker **passively decrypt TLS traffic at scale**.
 
 #### Diffie-Hellman in TLS
-**Diffie-Hellman (DH) key exchange is widely used in [[TLS]] for [[forward secrecy]]:**
+**Diffie-Hellman (DH) key exchange is widely used in [[TLS]] for [[Forward Secrecy]]:**
 1. Client and server agree on a **prime number** *p* and a **generator** *g*.
 2. Client picks a secret *a*, computes **A = $g^a$** mod *p*, and sends **A** to the server.
 3. Server picks a secret *b*, computes **B = $g^b$** mod *p*, and sends *B* to the client.

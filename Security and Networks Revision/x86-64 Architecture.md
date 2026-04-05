@@ -83,3 +83,4 @@ There exists a convention on how function arguments should be passed.
 - A function will usually first save the previous base pointer (`rbp`)
 	- Then, it will set the `rbp` to the current stack pointer `rsp`
 - Before returning, it will cleanup the stack and restore the old `rbp`.
+- 

@@ -24,7 +24,7 @@
 - Why is [[salting]] important when hashing passwords?
 *- What is the difference between digital signatures and certificates?
 - What are the weaknesses of MD5 and SHA-1?
-- What is [[forward secrecy]]?
+- What is [[Forward Secrecy]]?
 
 
 - What is the difference between TCP and UDP? Give an example of each.
