@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04-05.md",
+                "file": "Databases and Web Programming Revision/Components of HTTP-based systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-05"
+              "title": "Components of HTTP-based systems"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-04-05.md",
+                "file": "Databases and Web Programming Revision/Components of HTTP-based systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-04-05"
+              "title": "Backlinks for Components of HTTP-based systems"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-04-05.md",
+                "file": "Databases and Web Programming Revision/Components of HTTP-based systems.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2026-04-05"
+              "title": "Outgoing links from Components of HTTP-based systems"
             }
           },
           {
@@ -222,10 +222,19 @@
   },
   "active": "8439cc4f8864dc6d",
   "lastOpenFiles": [
+    "DAWP W7.md",
+    "Databases and Web Programming Revision/Components of HTTP-based systems.md",
+    "4. Extras/decompiler.md",
+    "4. Extras/Debugger.md",
+    "Theory Questions.md",
+    "Revision Questions.md",
+    "Scenario Questions.md",
+    "Diffie-Hellman.md",
+    "2026-04-05.md",
+    "Databases and Web Programming Revision",
     "2. SaN/Hashes.md",
     "Security and Networks Revision/Heartbleed.md",
     "Security and Networks Revision/Logjam.md",
-    "2026-04-05.md",
     "Security and Networks Revision/Reverse Engineering.md",
     "Security and Networks Revision/x86-64 Architecture.md",
     "Security and Networks Revision/Redirects.md",
@@ -242,15 +251,7 @@
     "Security and Networks Revision/digital certificate.md",
     "3. Images/Pasted image 20260405163241.png",
     "3. Images/Pasted image 20260405163013.png",
-    "2. SaN/The Internet Protocol Stack - Layer Functions.md",
-    "Security and Networks Revision/Forward Secrecy.md",
-    "Diffie-Hellman.md",
-    "Security and Networks Revision/Nonce.md",
     "Pasted image 20260405124748.png",
-    "2. SaN/Internet.md",
-    "2026-02-19.md",
-    "Security and Networks Revision/IP Packet.md",
-    "2. SaN/Week 1 SaN.md",
     "3. Images/Pasted image 20260405124128.png",
     "3. Images/Pasted image 20260405123635.png",
     "Security and Networks Revision",
@@ -267,7 +268,6 @@
     "Untitled 1.base",
     "3. Images",
     "2. SaN",
-    "1. OSSP",
-    "desktop.ini"
+    "1. OSSP"
   ]
 }

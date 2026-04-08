@@ -1,0 +1,6 @@
+- Internet vs web vs web sites vs web applications
+- web application development
+- command line tools for web app developers
+- HTTP protocol
+- architectures for web applications
+- Tech stacks and tech stack generator

@@ -24,7 +24,7 @@ Goals:
 	- gdb
 - [[Disassembler]]
 	- ghidra
-- [[Decompiler]]
+- [[decompiler]]
 	- ghidra
 - Fuzzing
 	- American fuzzy lock??????????
