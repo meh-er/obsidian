@@ -34,3 +34,16 @@ A complete Spring application:
 - Authentcation and Authorisation: JWT, OAuth, tokens for REST
 - CI/CD: for continuous integration and deployment to a **cloud/VM**
 - Docker: to package our app to **easily run anywhere** and deploy.
+
+
+#### Dev commands
+- `jhipster`: generate new JHipster application. 
+- `jhipster ci-cd`: generate a ci and cd pipelines JHipster answer questions about type of ci pipeline needed
+- `jhipster jdl myapp.jdl`: generate all the entities and relationships specified in `myapp.jdl`
+- `jhipster entity`: Generates a single new entity along with associated files: entity classes, database migration scripts, REST API endpoints, and Angular/React components
+
+#### run commands
+- `./mvnw`: Runs the application in development mode (port 8080)
+- `npm install`: installs node needed packages
+- `npm start`: starts front end only (port 9000)
+
