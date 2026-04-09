@@ -35,7 +35,6 @@ A complete Spring application:
 - CI/CD: for continuous integration and deployment to a **cloud/VM**
 - Docker: to package our app to **easily run anywhere** and deploy.
 
-
 #### Dev commands
 - `jhipster`: generate new JHipster application. 
 - `jhipster ci-cd`: generate a ci and cd pipelines JHipster answer questions about type of ci pipeline needed

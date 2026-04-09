@@ -10,3 +10,15 @@ Spring Boot is an open-source Java framework used for programming standalone, pr
 	- Auto-configuration,
 	- Pre-built components for faster development.
 
+### Java and SpringBoot @annotations
+- `domain/`
+- `web/rest/`
+- `service/`
+- `repository/`
+#### Java @Annotations
+- Associate **metadata** with **code elements**:
+	- Classes, methods, fields, etc.
+- Not statements, so do not directly get executed
+- Used at compile or runtime by framteworks
+- Some annotations you might recognise from year 1:
+	- `@Override`: Indicates that a method overrides a method in its super
