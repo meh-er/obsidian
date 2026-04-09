@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REST.md",
+                "file": "Databases and Web Programming Revision/JDL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "REST"
+              "title": "JDL"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "DAWP Qs"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DAWP Qs.md",
+                "file": "Databases and Web Programming Revision/JDL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DAWP Qs"
+              "title": "Backlinks for JDL"
             }
           },
           {
@@ -234,11 +233,14 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "b42c548173cf4419",
+  "active": "4109f545d3e502da",
   "lastOpenFiles": [
+    "Databases and Web Programming Revision/JHipster.md",
+    "Databases and Web Programming Revision/JDL.md",
+    "Databases and Web Programming Revision/Spring Boot.md",
+    "Databases and Web Programming Revision/REST.md",
     "2026-04-09.md",
     "DAWP Qs.md",
-    "REST.md",
     "Databases and Web Programming Revision/Web Applications Architectures.md",
     "DAWP FInish list.md",
     "Databases and Web Programming Revision/HTTP Lifecycle.md",
@@ -268,10 +270,7 @@
     "3. Images/Pasted image 20260408183036.png",
     "Databases and Web Programming Revision/POST.md",
     "3. Images/Pasted image 20260408182148.png",
-    "Databases and Web Programming Revision/GET.md",
     "3. Images/Pasted image 20260408181751.png",
-    "4. Extras/decompiler.md",
-    "4. Extras/Debugger.md",
     "Databases and Web Programming Revision",
     "Security and Networks Revision",
     "2. SaN/SaN.base",

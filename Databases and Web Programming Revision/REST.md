@@ -24,6 +24,15 @@ REpresentational State Transfer
 | Delete a todo note   | `DELETE`   | /deleteTodos     | /todos/145        |
 | Get a todo's subject | `GET`      | /getTodosSubject | /todos/10/subject |
 
+- **Plural not singular**
+- **GET is stateless**
+- **Specify the format in headers**
+- **Object relations**
+- **versioning**
+- **sorting**
+- **paging**
+- **aliasing**
+
 #### Plural not singular
 - REST rarely used for single unique resources.
 - Keep it simple: use only plural for resources.
@@ -43,3 +52,31 @@ CORRECT: `POST /items/923/publish`
 Use sub-resources to get related resources
 `GET /todos/923/items/4`
 (from todo #923, get item #4 only)
+
+#### versioning
+Publishing an API requires careful thought about app structure, but what if our domain changes?
+- Make the API version mandatory, use vN
+	- so `/api/v1`
+	- Use a whole number!
+	- Have different APIs for different apps or microservices
+	- e.g. `/users/api/v3` and `shop/api/v4`
+
+#### sort
+- Allow ascending and descending sort using parameters(?) +-
+	- `GET /items?-cost, +color`
+Returns a list of items sorted descending by cost and ascending by color.
+
+
+#### paging
+- Allow clients to flexibly deal with large result sets
+- `GET /items?limit=20, offset=10`
+Returns 20 items, does not include the first 10 results.
+By default: no limit, offset 0
+
+
+#### aliasing
+Move useful/commonly used tasks into more easily accessed paths
+Instead of:
+- `POST /users/create/`
+Consider:
+- `POST /users/`
