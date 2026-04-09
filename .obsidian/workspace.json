@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security and Networks Revision/Heartbleed.md",
+                "file": "REST.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Heartbleed"
+              "title": "REST"
             }
           },
           {
@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases and Web Programming Revision/Components of HTTP-based systems.md",
+                "file": "2026-04-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Components of HTTP-based systems"
+              "title": "2026-04-09"
+            }
+          },
+          {
+            "id": "b42c548173cf4419",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DAWP Qs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DAWP Qs"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -68,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "logjam",
+                "query": "TLS",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases and Web Programming Revision/Components of HTTP-based systems.md",
+                "file": "DAWP Qs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Components of HTTP-based systems"
+              "title": "Backlinks for DAWP Qs"
             }
           },
           {
@@ -220,48 +234,48 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "8439cc4f8864dc6d",
+  "active": "b42c548173cf4419",
   "lastOpenFiles": [
-    "DAWP W7.md",
+    "2026-04-09.md",
+    "DAWP Qs.md",
+    "REST.md",
+    "Databases and Web Programming Revision/Web Applications Architectures.md",
+    "DAWP FInish list.md",
+    "Databases and Web Programming Revision/HTTP Lifecycle.md",
+    "Databases and Web Programming Revision/Command Line Tools.md",
+    "Databases and Web Programming Revision/TCP.md",
+    "Databases and Web Programming Revision/Ports.md",
+    "Databases and Web Programming Revision/Protocols.md",
+    "Databases and Web Programming Revision/IP Addresses.md",
+    "3. Images/Pasted image 20260408191639.png",
+    "3. Images/Pasted image 20260408191038.png",
+    "Security and Networks Revision/Heartbleed.md",
+    "2. SaN/SSL & TLS.md",
+    "4. Extras/DNS.md",
+    "DNS Resolution.md",
+    "Databases and Web Programming Revision/Content-Type.md",
     "Databases and Web Programming Revision/Components of HTTP-based systems.md",
+    "Databases and Web Programming Revision/Accept.md",
+    "3. Images/Pasted image 20260408184535.png",
+    "Databases and Web Programming Revision/User-Agent.md",
+    "3. Images/Pasted image 20260408184411.png",
+    "Databases and Web Programming Revision/Host.md",
+    "4. Extras/Host Header Injection Attacks.md",
+    "Scenario Questions.md",
+    "3. Images/Pasted image 20260120141503.png",
+    "3. Images/Pasted image 20260408183203.png",
+    "3. Images/Pasted image 20260408183137.png",
+    "3. Images/Pasted image 20260408183036.png",
+    "Databases and Web Programming Revision/POST.md",
+    "3. Images/Pasted image 20260408182148.png",
+    "Databases and Web Programming Revision/GET.md",
+    "3. Images/Pasted image 20260408181751.png",
     "4. Extras/decompiler.md",
     "4. Extras/Debugger.md",
-    "Theory Questions.md",
-    "Revision Questions.md",
-    "Scenario Questions.md",
-    "Diffie-Hellman.md",
-    "2026-04-05.md",
     "Databases and Web Programming Revision",
-    "2. SaN/Hashes.md",
-    "Security and Networks Revision/Heartbleed.md",
-    "Security and Networks Revision/Logjam.md",
-    "Security and Networks Revision/Reverse Engineering.md",
-    "Security and Networks Revision/x86-64 Architecture.md",
-    "Security and Networks Revision/Redirects.md",
-    "Security and Networks Revision/Deployment.md",
-    "4. Extras/SQL Injection.md",
-    "Security and Networks Revision/XSS.md",
-    "Security and Networks Revision/Web Security.md",
-    "4. Extras/XSS.md",
-    "Security and Networks Revision/Command Injection.md",
-    "Security and Networks Revision/Cookies.md",
-    "Security and Networks Revision/HTTP.md",
-    "Security and Networks Revision/Needham-Schroeder-Lowe Public Key Protocol.md",
-    "Security and Networks Revision/SSL, TLS.md",
-    "Security and Networks Revision/digital certificate.md",
-    "3. Images/Pasted image 20260405163241.png",
-    "3. Images/Pasted image 20260405163013.png",
-    "Pasted image 20260405124748.png",
-    "3. Images/Pasted image 20260405124128.png",
-    "3. Images/Pasted image 20260405123635.png",
     "Security and Networks Revision",
     "2. SaN/SaN.base",
-    "3. Images/Pasted image 20260323142244.png",
     "1. OSSP/OSSP.base",
-    "3. Images/Pasted image 20260321234439.png",
-    "3. Images/Pasted image 20260321220346.png",
-    "3. Images/Pasted image 20260320170307.png",
-    "3. Images/Pasted image 20260320164827.png",
     "4. Extras/FOSCAM",
     "4. Extras",
     "Untitled.canvas",
