@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases and Web Programming Revision/JDL.md",
+                "file": "Haskell Review Tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JDL"
+              "title": "Haskell Review Tasks"
             }
           },
           {
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases and Web Programming Revision/JDL.md",
+                "file": "Haskell Review Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for JDL"
+              "title": "Backlinks for Haskell Review Tasks"
             }
           },
           {
@@ -235,6 +235,18 @@
   },
   "active": "4109f545d3e502da",
   "lastOpenFiles": [
+    "2026-04-09.md",
+    "Databases and Web Programming Revision/Web Applications Architectures.md",
+    "2. SaN/SSL & TLS.md",
+    "Databases and Web Programming Revision/User-Agent.md",
+    "Databases and Web Programming Revision/TCP.md",
+    "Databases and Web Programming Revision/Spring Boot.md",
+    "Databases and Web Programming Revision/REST.md",
+    "Databases and Web Programming Revision/Protocols.md",
+    "Databases and Web Programming Revision/POST.md",
+    "Databases and Web Programming Revision/Ports.md",
+    "Databases and Web Programming Revision/JHipster.md",
+    "Databases and Web Programming Revision/JDL.md",
     "Databases and Web Programming Revision/IP Addresses.md",
     "Databases and Web Programming Revision/HTTP Lifecycle.md",
     "Databases and Web Programming Revision/Host.md",
@@ -243,28 +255,16 @@
     "Security and Networks Revision/Cookies.md",
     "Databases and Web Programming Revision/Content-Type.md",
     "Databases and Web Programming Revision/Accept.md",
-    "Databases and Web Programming Revision/User-Agent.md",
-    "Databases and Web Programming Revision/JHipster.md",
-    "Databases and Web Programming Revision/Spring Boot.md",
-    "Databases and Web Programming Revision/JDL.md",
-    "Databases and Web Programming Revision/REST.md",
-    "2026-04-09.md",
     "DAWP Qs.md",
-    "Databases and Web Programming Revision/Web Applications Architectures.md",
     "DAWP FInish list.md",
     "Databases and Web Programming Revision/Command Line Tools.md",
-    "Databases and Web Programming Revision/TCP.md",
-    "Databases and Web Programming Revision/Ports.md",
-    "Databases and Web Programming Revision/Protocols.md",
     "3. Images/Pasted image 20260408191639.png",
     "3. Images/Pasted image 20260408191038.png",
     "Security and Networks Revision/Heartbleed.md",
-    "2. SaN/SSL & TLS.md",
     "4. Extras/DNS.md",
     "DNS Resolution.md",
     "3. Images/Pasted image 20260408184535.png",
     "3. Images/Pasted image 20260408184411.png",
-    "4. Extras/Host Header Injection Attacks.md",
     "3. Images/Pasted image 20260120141503.png",
     "3. Images/Pasted image 20260408183203.png",
     "3. Images/Pasted image 20260408183137.png",

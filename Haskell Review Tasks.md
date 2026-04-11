@@ -1,0 +1,3 @@
+- [ ] Q27
+- [ ] Look for better solutions for earlier qs
+- [ ] 
