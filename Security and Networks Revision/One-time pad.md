@@ -9,3 +9,6 @@ The key must be:
 2. Truly random.
 3. Never reused in whole or in part.
 4. Kept completely secret by the communicating parties.
+
+Formula:
+(M + K) mod 26 (or whatever)t
