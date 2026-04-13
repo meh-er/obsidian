@@ -22,3 +22,7 @@ Compute *d* such that $e * d ≡ 1 (mod) 𝜙(N))$
 Public key $PK = (e, N)$. The private key $SK = (e,d,N)$
 	$PK = (e = 7, N = 33)$
 	$SK = (e = 7, d = 3, N = 33)$
+
+## Exploits
+- E.g.  To get $m^2$, the adversary just needs to compute $c^2 (mod N)$
+- 
