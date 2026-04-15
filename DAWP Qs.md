@@ -1,7 +1,7 @@
 #DAWP 
 
 1. Explain the difference between a website and a web application in the context of state and user interaction
-2. What is teh difference between teh internet and world wide web
+2. What is the difference between the internet and world wide web
 3. What would be the restful url and HTTP method for:
 	1. Retrieving all books
 	2. Deleting a specific book with ID 50
