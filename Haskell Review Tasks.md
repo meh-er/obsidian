@@ -1,4 +1,5 @@
 - [ ] Q27
 - [ ] Look for better solutions for earlier qs
 - [ ] List comprehensions + functions in notes
-- [ ] 
+- [ ] foldr, foldl
+- [ ] implement !! recursively
