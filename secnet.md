@@ -1,3 +1,6 @@
+fiestal network etc w2&3
+
+
 # Buffer Overflow Practicality
 In practice:  
 - Compilers may push variables out of order due to optimsations or different standards  
