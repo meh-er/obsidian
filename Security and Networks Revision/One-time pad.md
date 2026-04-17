@@ -11,4 +11,4 @@ The key must be:
 4. Kept completely secret by the communicating parties.
 
 Formula:
-(M + K) mod 26 (or whatever)t
+(M + K) mod 26 (or whatever)
