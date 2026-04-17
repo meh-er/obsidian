@@ -2,4 +2,5 @@
 - [ ] Normal Distribution
 - [ ] MLE finish notes
 - [ ] Greedy Method Mutual Information
+- [ ] Uncertainty panopto
 - [ ] 
