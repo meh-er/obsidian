@@ -16,3 +16,6 @@ DAWP
 - [ ] Frontend technologies
 - [ ] Angular Overview
 - [ ] Working with the Angular template
+
+- Study flashcards + find rando topics from 2nd half to go in depth on idk
+- [ ] Entity diagrams
