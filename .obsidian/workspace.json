@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security and Networks Revision/digital certificate.md",
+                "file": "SECNET REVISION TOPICS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "digital certificate"
+              "title": "SECNET REVISION TOPICS"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "SSL, TLS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security and Networks Revision/SSL, TLS.md",
+                "file": "SECNET REVISION TOPICS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SSL, TLS"
+              "title": "Backlinks for SECNET REVISION TOPICS"
             }
           },
           {
@@ -220,21 +219,22 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "f52410acc1aa42f4",
+  "active": "4109f545d3e502da",
   "lastOpenFiles": [
+    "secnet.md",
+    "Security and Networks Revision/digital certificate.md",
+    "Security and Networks Revision/SSL, TLS.md",
     "Security and Networks Revision/SHA-256.md",
     "Security and Networks Revision/SHA1 & SHA2.md",
     "SECNET REVISION TOPICS.md",
     "AI REVISION TASKS.md",
     "Dawp.md",
     "Haskell Review Tasks.md",
-    "Security and Networks Revision/digital certificate.md",
     "Security and Networks Revision/Diffie Hellman.md",
     "Security and Networks Revision/DES.md",
     "Security and Networks Revision/Deployment.md",
     "Security and Networks Revision/Cookies.md",
     "Security and Networks Revision/Command Injection.md",
-    "secnet.md",
     "2026-04-17.md",
     "Security and Networks Revision/Block Cipher Modes of Operation.md",
     "Security and Networks Revision/Block cipher.md",
@@ -248,7 +248,6 @@
     "Mixed Media/Untitled",
     "Mixed Media/Brutus Analysis.md",
     "Mixed Media/Music/Brutus - The Buttress.md",
-    "Mixed Media/Music/The Killers.md",
     "Mixed Media/Music",
     "Mixed Media",
     "3. Images/Pasted image 20260408191639.png",
