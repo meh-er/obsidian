@@ -24,6 +24,7 @@ Next session:
 - [ ] Needham-Schroeder
 - [ ] Nonce
 - [ ] Salting
+- [ ] Modular Arithmetic
 - [x] SHA hashes ✅ 2026-04-19
 - [x] SHA3 - absorption and squeezing process ✅ 2026-04-19
 - [x] Stream ciphers ✅ 2026-04-19

@@ -7,6 +7,8 @@
 Epistemic and Aleatoric Uncertainty in
 Multivariable Linear Regression
 
+
+
 - [ ] Week 4
 - [ ] Week 5
 - [ ] Week 7
