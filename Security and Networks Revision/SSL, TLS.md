@@ -23,7 +23,15 @@ SSL/TLS certificates authenticate identities and enable encrypted connections th
 6. Both sides derive the session key using nonces and exchanged key material.
 
 ### Weaknesses in TLS
+**Insufficient Encryption Key Lengths**
+- The longer the key length, the more possible values it can have
+- TLS essentially provides 'a secure tunnel'
 **Config**
 - **Cipher Downgrading** (forcing weaker ciphers)
 - **Self-Signed Certificates** (no trusted authority)
+- 
 
+### TLS
+- Essentially provides 'a secure tunnel'
+- TLS is used to prevent **eavesdropping** or **tampering** (vulnerable to other kinds of attacks)
+- Creates a **stateful connection**

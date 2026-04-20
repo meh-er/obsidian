@@ -1,16 +1,24 @@
 
+Next session:
+- [ ] 1hr flashcards
+- [ ] TLS handshake
+- [ ] Review MITM
+- [ ] Review XSS
+- [ ] Return topics
 
 
 **Topic 1**
-- [ ] DES
-- [ ] AES
+- [x] DES ✅ 2026-04-19
+- [x] AES ✅ 2026-04-19
 - [ ] Diffie Hellman
-- [ ] Digital Certificates
+- [x] Digital Certificates ✅ 2026-04-19
 - [ ] SSL/TLS
-- [ ] Hash functions
-- [ ] HMAC
+- [ ] TLS handshake
+- [x] Hash functions ✅ 2026-04-19
+- [x] HMAC ✅ 2026-04-19
+- [x] MAC ✅ 2026-04-19
 - [ ] HTTP
-- [ ] Initialization Vector
+- [x] Initialization Vector ✅ 2026-04-19
 - [ ] IP Packet
 - [ ] MD5
 - [ ] Needham-Schroeder
@@ -22,7 +30,9 @@
 
 
 Return to:
-- [ ] RSA
+- [x] RSA ✅ 2026-04-19
+- [ ] SHA 
+- [ ] AES
 - [ ] Modes of Operation
 - [ ] EUID
 - [ ] Forward Secrecy
