@@ -4,6 +4,8 @@ Next session:
 - [x] TLS handshake ✅ 2026-04-21
 - [ ] Review MITM
 - [ ] Review XSS
+- [ ] Length extension attacks
+- [ ] Compare all encryption methods
 - [ ] Return topics
 
 
@@ -12,7 +14,7 @@ Next session:
 - [x] AES ✅ 2026-04-19
 - [ ] Diffie Hellman
 - [x] Digital Certificates ✅ 2026-04-19
-- [ ] SSL/TLS
+- [x] SSL/TLS ✅ 2026-04-21
 - [x] TLS handshake ✅ 2026-04-21
 - [x] Hash functions ✅ 2026-04-19
 - [x] HMAC ✅ 2026-04-19
