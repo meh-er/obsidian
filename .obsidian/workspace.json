@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SECNET REVISION TOPICS.md",
+                "file": "Database Practice Qs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SECNET REVISION TOPICS"
+              "title": "Database Practice Qs"
             }
           },
           {
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "error detec",
+                "query": "SHA2",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SECNET REVISION TOPICS.md",
+                "file": "Database Practice Qs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SECNET REVISION TOPICS"
+              "title": "Backlinks for Database Practice Qs"
             }
           },
           {
@@ -236,10 +237,14 @@
   },
   "active": "f52410acc1aa42f4",
   "lastOpenFiles": [
+    "2. SaN/Hashes.md",
+    "Database Practice Qs.md",
+    "DAWP Qs.md",
+    "SECNET REVISION TOPICS.md",
+    "Security and Networks Revision/Access Control Matrix.md",
     "Security and Networks Revision/SSL, TLS.md",
     "Security and Networks Revision/Needham-Schroeder-Lowe Public Key Protocol.md",
     "Security and Networks Revision/Diffie Hellman.md",
-    "SECNET REVISION TOPICS.md",
     "1. OSSP/Concurrent programming.md",
     "Dawp.md",
     "1. OSSP/Context switching.md",
@@ -258,10 +263,6 @@
     "Security and Networks Revision/Deployment.md",
     "Security and Networks Revision/Cookies.md",
     "Security and Networks Revision/Command Injection.md",
-    "2026-04-17.md",
-    "Security and Networks Revision/Block Cipher Modes of Operation.md",
-    "Security and Networks Revision/Block cipher.md",
-    "Security and Networks Revision/One-time pad.md",
     "Mixed Media/Untitled",
     "Mixed Media/Music",
     "Mixed Media",

@@ -13,3 +13,22 @@
 8. Draw or describe of a request through a standard Spring Boot application, naming the three primary layers (Web, Service, Repository)
 9. Explain the 'Component-based' architecture of Angular. What are the three main files that typically make up an Angular component?
 Resources: JHipster onlien documentation, Spring Quickstart Guide - > architecture and efficiency
+
+
+
+
+
+
+Question types
+- [ ] Write an SQL query ..... Include specification of primary key(s), e.g. JOIN, CREATE, Constraints, Display ORDER BY,
+- [ ] What anomalies can be identified based on this spreadsheet?
+- [ ] If you normalise this Table, how many will you end up with + what will they be
+
+- [ ] Path variable vs Request Parameter
+- [ ] Springboot methods
+- [ ] Springboot annotations
+- [ ] Springboot layers
+- [ ] AUthentication vs Authorization
+- [ ] JDL modelling for entity
+- [ ] write a curl command for a HTTP method (PATCH, UPDATE, PUT, etc)
+- [ ] Versioning & endpoints

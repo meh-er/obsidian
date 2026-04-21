@@ -9,3 +9,6 @@ Key Components:
 2. **Objects**: Objects are the resources or entities for which access is being regulated. Examples include files, databases, web applications, network devices and other IT assets  
     
 3. **Permissions/ Actions**: Permissions define the level of type of access granted between a subject and an object. Common perms include read, write, execute, delete.
+
+memory inefficient, cab cirrupt
+unix format

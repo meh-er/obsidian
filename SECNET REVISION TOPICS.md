@@ -1,11 +1,9 @@
 
 Next session:
 - [ ] 1hr flashcards
-- [x] TLS handshake ✅ 2026-04-21
 - [ ] Review MITM
 - [ ] Review XSS
 - [ ] Length extension attacks
-- [x] Compare all encryption methods ✅ 2026-04-21
 - [ ] Return topics
 
 
@@ -30,12 +28,12 @@ Next session:
 - [x] SHA hashes ✅ 2026-04-19
 - [x] SHA3 - absorption and squeezing process ✅ 2026-04-19
 - [x] Stream ciphers ✅ 2026-04-19
+- [ ] AES
 
 
 Return to:
 - [x] RSA ✅ 2026-04-19
 - [ ] SHA 
-- [ ] AES
 - [ ] Modes of Operation
 - [ ] EUID
 - [ ] Forward Secrecy
@@ -43,6 +41,7 @@ Return to:
 - [ ] One-time pad
 - [ ] UIDs 
 - [ ] Access Control
+- [ ] TLS handshake
 
 **Topic 2**
 - [ ] Cookies
