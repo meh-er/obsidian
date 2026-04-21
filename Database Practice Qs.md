@@ -232,46 +232,5 @@ _(Note: The `AdvisorEmail` is strictly tied to the `FacultyAdvisorName`, not the
 
 ---
 
-### **Answer Key**
-
-**Part 1 Answers:** 1.
-
-SQL
-
-```
-CREATE TABLE Doctors (
-    DocID INT PRIMARY KEY,
-    DocName VARCHAR(255) NOT NULL,
-    Specialty VARCHAR(255) DEFAULT 'General Practice'
-);
-```
-
-SQL
-
-```
-SELECT p.PatientName, d.DocName 
-FROM Patients p
-JOIN Doctors d ON p.AssignedDocID = d.DocID
-ORDER BY p.PatientName ASC;
-```
-
-SQL
-
-```
-SELECT AssignedDocID, COUNT(PatientID) 
-FROM Patients
-GROUP BY AssignedDocID;
-```
-
-SQL
-
-```
-ALTER TABLE Patients
-ADD CONSTRAINT UNIQUE (PatientID);
-```
-
-_(Or adding it as a Primary Key: `ALTER TABLE Patients ADD PRIMARY KEY (PatientID);`)_
-
-**Part 2 Answers:** 5. **Deletion Anomaly.** By deleting the item, the bakery unintentionally lost all data regarding "The Corner Cafe" (their existence, address, etc.) because that data was tied to the item order. 6. **Update Anomaly.** Modifying duplicated data incompletely leads to data inconsistency. The database now has two different addresses for "Bistro 99", making it impossible to know which one is currently accurate. 7. **Insertion Anomaly.** The manager cannot enter Sarah because an `OrderID` and `ItemBaked` are required to create a valid row (they form the Primary Key, which cannot be null). You cannot insert a standalone fact about a driver.
 
 **Part 3 Answers:** 8. The `Skill_1`, `Skill_2`, and `Skill_3` columns violate 1NF because 1NF prohibits **repeating groups** (arrays/lists of similar data). To fix this, you would remove those three columns and create a new table called `MemberSkills` with columns `StudentID` (Foreign Key) and `Skill`. If a student has 3 skills, they get 3 rows in this new table. 9. They violate the rule against **transitive dependencies**. `AdvisorEmail` depends on `FacultyAdvisorName`, which in turn depends on the primary key (`StudentID`). In 3NF, all non-key attributes must depend _strictly and only_ on the primary key. 10. **Three Tables.** * `Students` (StudentID, StudentName, FacultyAdvisorName) * `StudentSkills` (StudentID, Skill) -> _To resolve the 1NF issue._ * `Advisors` (FacultyAdvisorName, AdvisorEmail) -> _To resolve the 3NF issue._

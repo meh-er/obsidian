@@ -7,6 +7,40 @@ Next session:
 - [ ] Return topics
 
 
+
+**Secnet Checklist**
+- [ ] Access Control
+- [ ] AES
+- [ ] Block Cipher Modes
+- [ ] Command Injections
+- [ ] Cookies
+- [ ] Diffie Hellman
+- [ ] Digital Certificate
+- [ ] UIDs
+- [ ] Forward Secrecy
+- [ ] Hash Functions
+- [ ] Heartbleed
+- [ ] HTTP
+- [ ] IV
+- [ ] IP Packet
+- [ ] LogJam
+- [ ] MITM
+- [ ] MAC (CCM, CBC, HMAC)
+- [ ] Needham-Schroeder
+- [ ] Nonce
+- [ ] One-Time Pad
+- [ ] Redirects
+- [ ] Reverse Engineering
+- [ ] RSA
+- [ ] Salting
+- [ ] SHA3
+- [ ] SSL/TLS
+- [ ] Stream cipher
+- [ ] Web Security
+- [ ] x86-64 Architecture
+- [ ] XSS
+
+
 **Topic 1**
 - [x] DES ✅ 2026-04-19
 - [x] AES ✅ 2026-04-19
