@@ -49,7 +49,8 @@
               "title": "Binary Trees"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. OSSP/Concurrent programming.md",
+                "file": "Security and Networks Revision/SSL, TLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Concurrent programming"
+              "title": "Backlinks for SSL, TLS"
             }
           },
           {
@@ -233,23 +234,23 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "4109f545d3e502da",
+  "active": "f52410acc1aa42f4",
   "lastOpenFiles": [
+    "SECNET REVISION TOPICS.md",
+    "Dawp.md",
+    "Security and Networks Revision/SSL, TLS.md",
+    "1. OSSP/Concurrent programming.md",
     "1. OSSP/Context switching.md",
     "1. OSSP/Writing kernel programs in C.md",
-    "1. OSSP/Concurrent programming.md",
     "1. OSSP/Basic C syntax, compiling programs.md",
     "1. OSSP/Android specifics.md",
     "1. OSSP/0Static and global variables, variable scope.md",
     "AI REVISION TASKS.md",
-    "SECNET REVISION TOPICS.md",
     "Binary Trees.md",
-    "Security and Networks Revision/SSL, TLS.md",
     "secnet.md",
     "Security and Networks Revision/digital certificate.md",
     "Security and Networks Revision/SHA-256.md",
     "Security and Networks Revision/SHA1 & SHA2.md",
-    "Dawp.md",
     "Haskell Review Tasks.md",
     "Security and Networks Revision/Diffie Hellman.md",
     "Security and Networks Revision/DES.md",

@@ -35,3 +35,14 @@ SSL/TLS certificates authenticate identities and enable encrypted connections th
 - Essentially provides 'a secure tunnel'
 - TLS is used to prevent **eavesdropping** or **tampering** (vulnerable to other kinds of attacks)
 - Creates a **stateful connection**
+- Provides
+	- What ciphers to use
+	- Secret key
+	- Authentication
+	- Robust MITM, Replay attacks, Downgrade attacks
+- Meant to be interoperable
+- Message structure is fixed doesn't matter what language sent it
+
+Padding attacks
+Implementation attacks
+Bug in implementation of TLS

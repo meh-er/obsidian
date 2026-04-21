@@ -1,7 +1,7 @@
 
 Next session:
 - [ ] 1hr flashcards
-- [ ] TLS handshake
+- [x] TLS handshake ✅ 2026-04-21
 - [ ] Review MITM
 - [ ] Review XSS
 - [ ] Return topics
@@ -13,7 +13,7 @@ Next session:
 - [ ] Diffie Hellman
 - [x] Digital Certificates ✅ 2026-04-19
 - [ ] SSL/TLS
-- [ ] TLS handshake
+- [x] TLS handshake ✅ 2026-04-21
 - [x] Hash functions ✅ 2026-04-19
 - [x] HMAC ✅ 2026-04-19
 - [x] MAC ✅ 2026-04-19
@@ -23,7 +23,7 @@ Next session:
 - [ ] MD5
 - [ ] Needham-Schroeder
 - [ ] Nonce
-- [ ] Salting
+- [x] Salting ✅ 2026-04-21
 - [ ] Modular Arithmetic
 - [x] SHA hashes ✅ 2026-04-19
 - [x] SHA3 - absorption and squeezing process ✅ 2026-04-19
