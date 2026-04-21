@@ -5,7 +5,7 @@ Next session:
 - [ ] Review MITM
 - [ ] Review XSS
 - [ ] Length extension attacks
-- [ ] Compare all encryption methods
+- [x] Compare all encryption methods ✅ 2026-04-21
 - [ ] Return topics
 
 
@@ -23,8 +23,8 @@ Next session:
 - [x] Initialization Vector ✅ 2026-04-19
 - [ ] IP Packet
 - [ ] MD5
-- [ ] Needham-Schroeder
-- [ ] Nonce
+- [x] Needham-Schroeder ✅ 2026-04-21
+- [x] Nonce ✅ 2026-04-21
 - [x] Salting ✅ 2026-04-21
 - [ ] Modular Arithmetic
 - [x] SHA hashes ✅ 2026-04-19
