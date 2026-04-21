@@ -26,4 +26,5 @@ DAWP
 - [ ] Anomaly and other database activities
 - [ ] Normalisation
 - [ ] JDL / Entities
+- [ ] Flashcards
 
