@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security and Networks Revision/Needham-Schroeder-Lowe Public Key Protocol.md",
+                "file": "OSSP Revision Schedule.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Needham-Schroeder-Lowe Public Key Protocol"
+              "title": "OSSP Revision Schedule"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "von Neumann architecture"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. OSSP/von Neumann architecture.md",
+                "file": "OSSP Revision Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for von Neumann architecture"
+              "title": "Backlinks for OSSP Revision Schedule"
             }
           },
           {
@@ -220,8 +219,10 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "f52410acc1aa42f4",
+  "active": "4109f545d3e502da",
   "lastOpenFiles": [
+    "Security and Networks Revision/Needham-Schroeder-Lowe Public Key Protocol.md",
+    "1. OSSP/von Neumann architecture.md",
     "OSSP Revision Schedule.md",
     "1. OSSP/Memory Management.md",
     "1. OSSP/Scheduling processes.md",
@@ -237,7 +238,6 @@
     "DAWP Qs.md",
     "Security and Networks Revision/Access Control Matrix.md",
     "Security and Networks Revision/SSL, TLS.md",
-    "Security and Networks Revision/Needham-Schroeder-Lowe Public Key Protocol.md",
     "Security and Networks Revision/Diffie Hellman.md",
     "1. OSSP/Concurrent programming.md",
     "1. OSSP/Context switching.md",
@@ -247,7 +247,6 @@
     "1. OSSP/0Static and global variables, variable scope.md",
     "AI REVISION TASKS.md",
     "Security and Networks Revision/digital certificate.md",
-    "Security and Networks Revision/SHA-256.md",
     "Mixed Media/Untitled",
     "Mixed Media/Music",
     "Mixed Media",

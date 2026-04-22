@@ -1,7 +1,7 @@
 **Wk 1**
-- [ ] Von Neumann Architecture (CPU, IO, Memory, Program execution)
-- [ ] Organisation of a CPU
-- [ ] Organisation of memory
+- [x] Von Neumann Architecture (CPU, IO, Memory, Program execution) ✅ 2026-04-22
+- [x] Organisation of a CPU ✅ 2026-04-22
+- [x] Organisation of memory ✅ 2026-04-22
 - [ ] C programming (I/O, Arrays, Functions)
 
 **Wk 2**
