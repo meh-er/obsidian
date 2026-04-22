@@ -5,7 +5,7 @@ tags:
 Program's view memory is set of memory cells starting at address 0x0 and finishing at some value (logical address).
 Hardware: have set of memory cells starting at address 0x0 and finishing at some value (physical address)
 
-Want to be able to store memory of several programs in main memory at the same time. Therefore, we need suitable **mapping from logical addersses to physical addresses**
+Want to be able to store memory of several programs in main memory at the same time. Therefore, we need suitable **mapping from logical addresses to physical addresses**
 - At Compile Time: absolute references are generated
 - At load time: can be done by special program
 - At execution time: needs HW support
