@@ -20,15 +20,16 @@ Resources: JHipster onlien documentation, Spring Quickstart Guide - > architectu
 
 
 Question types
-- [ ] Write an SQL query ..... Include specification of primary key(s), e.g. JOIN, CREATE, Constraints, Display ORDER BY,
-- [ ] What anomalies can be identified based on this spreadsheet?
+- [x] Write an SQL query ..... Include specification of primary key(s), e.g. JOIN, CREATE, Constraints, Display ORDER BY, ✅ 2026-04-23
+- [x] What anomalies can be identified based on this spreadsheet? ✅ 2026-04-23
 - [ ] If you normalise this Table, how many will you end up with + what will they be
+- [ ] JDL modelling for entity
 
 - [ ] Path variable vs Request Parameter
 - [ ] Springboot methods
 - [ ] Springboot annotations
 - [ ] Springboot layers
 - [ ] AUthentication vs Authorization
-- [ ] JDL modelling for entity
+
 - [ ] write a curl command for a HTTP method (PATCH, UPDATE, PUT, etc)
 - [ ] Versioning & endpoints

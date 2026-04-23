@@ -201,36 +201,81 @@ Answer: Lost a customer idk bro
 
 ---
 
-### **Part 3: Normalization**
-
-**Scenario C:** Review the following unnormalized table used by a school club: **Table: `ClubMembers`**
-
-- `StudentID` (Primary Key)
-    
-- `StudentName`
-    
-- `Skill_1`
-    
-- `Skill_2`
-    
-- `Skill_3`
-    
-- `FacultyAdvisorName`
-    
-- `AdvisorEmail`
-    
-
-_(Note: The `AdvisorEmail` is strictly tied to the `FacultyAdvisorName`, not the student)._
-
-**Question 8:** This table violates First Normal Form (1NF). Which columns cause this violation, what is the rule being broken, and how would you restructure it to achieve 1NF?
-
-**Question 9:** Look at the `FacultyAdvisorName` and `AdvisorEmail` columns. Assuming the table was already in 2NF, what normalization rule do these two columns violate that prevents the table from being in Third Normal Form (3NF)?
-
-**Question 10:** If you fully normalize the original `ClubMembers` table into 3rd Normal Form (3NF), how many distinct tables will you end up with, and what would you name them?
-
 ---
+# Normalisation
+A
+**partial** dependency -  depend on whole **primary** key 
 
----
+1NF - all values are atomic
+
+x relies on y, and y relies on z, so therefore x should rely on z - **relies on smth other than a key column**
+
+EmployeeID
+2NF - there r transitive dependencies (deplocation depends on smth other than pk)
+
+1NF - atomic, no repeats
+
+| StudentID | Studentname | CourseID | CourseName | Instructor | InstructorEmail | Grade |
+| --------- | ----------- | -------- | ---------- | ---------- | --------------- | ----- |
+| S1        | Alice       | C101     | Math       | Dr.Smith   | smith@uni.edu   | A     |
+
+**Already in 1NF**
+2NF - partial dependencies - dependent on whole pk
+3NF - no transitive dependencies
+
+| StudentID | StudentName |
+| --------- | ----------- |
+| S1        | Alice       |
+| S2        | Bob         |
+
+| CourseID | CourseName | Instructor |
+| -------- | ---------- | ---------- |
+| C101     | Math       | Dr. Smith  |
+| C102     | Science    | Dr. Jones  |
 
 
-**Part 3 Answers:** 8. The `Skill_1`, `Skill_2`, and `Skill_3` columns violate 1NF because 1NF prohibits **repeating groups** (arrays/lists of similar data). To fix this, you would remove those three columns and create a new table called `MemberSkills` with columns `StudentID` (Foreign Key) and `Skill`. If a student has 3 skills, they get 3 rows in this new table. 9. They violate the rule against **transitive dependencies**. `AdvisorEmail` depends on `FacultyAdvisorName`, which in turn depends on the primary key (`StudentID`). In 3NF, all non-key attributes must depend _strictly and only_ on the primary key. 10. **Three Tables.** * `Students` (StudentID, StudentName, FacultyAdvisorName) * `StudentSkills` (StudentID, Skill) -> _To resolve the 1NF issue._ * `Advisors` (FacultyAdvisorName, AdvisorEmail) -> _To resolve the 3NF issue._
+| Instructor | InstructorEmail |
+| ---------- | --------------- |
+| Dr Smith   | smith@uni.edu   |
+| Dr Jones   | jones@uni.edu   |
+
+
+| CourseID | StudentID | Grade |
+| -------- | --------- | ----- |
+| C101     | S1        | A     |
+- Deletion anomaly
+- 3NF -> no x that is reliant on smth taht isnt a key
+
+
+| EmpID | ProjectCode | EmpName | ProjectManager | HoursLogged |
+| ----- | ----------- | ------- | -------------- | ----------- |
+| E01   | P-ALPHA     | Dave    | Sarah          | 12          |
+| E02   | P-ALPHA     | Anna    | Sarah          | 8           |
+| E01   | P-BETA      | Dave    | John           | 15          |
+|       |             |         |                |             |
+ - in 1NF as no repeats, atomic
+ - 2NF: reliant on whole PK: empid+ project code
+
+| EmpID | EmpName | HoursLogged |
+| ----- | ------- | ----------- |
+| E01   | Dave    |             |
+| E02   | Anna    |             |
+
+| ProjectCode | ProjectManager |
+| ----------- | -------------- |
+| P-ALPHA     | Sarah          |
+| P-BETA      | John           |
+
+| EmpID | ProjectCode | HoursLogged |
+| ----- | ----------- | ----------- |
+| E01   | P-ALPHA     | 12          |
+| E02   | P-ALPHA     | 8           |
+| E01   | P-BETA      | 15          |
+3.
+
+OrderID | OrderDate | CustomerID | ShippingCost
+
+CustomerID | ShippingCost
+
+ShippingCost | ShippingCost
+
