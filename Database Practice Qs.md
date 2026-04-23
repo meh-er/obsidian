@@ -279,3 +279,39 @@ CustomerID | ShippingCost
 
 ShippingCost | ShippingCost
 
+- entity Name { fieldName Type }
+- fieldName String required
+- enum Status {OPEN, CLOSED}
+- relationship OneToMany {Source(dest) to Destination(source) }
+- service * with serviceClass 
+
+1. Standardised, can be put straight into smth? Has diagrams and text more verstaile
+2. Uh.
+3. One to many means one to many bro
+4. Applies validation in frontend? idk bro
+
+```
+entity Product {
+	name String required,
+	price BigDecimal required,
+	description TextBlob
+	}
+```
+
+
+hdfjks
+
+```
+enum Status {PENDING, SHIPPED, DELIVERED, CANCELLED}
+	}
+	
+entity Orders {
+	status Status
+	}
+```
+
+Osfsaf
+
+- Author OneToMany Books
+- Book OneToOne Author
+- 
