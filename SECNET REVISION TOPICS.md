@@ -34,8 +34,8 @@ Next session:
 - [ ] Reverse Engineering
 - [x] RSA ✅ 2026-04-24
 - [x] Salting ✅ 2026-04-24
-- [ ] **Signatures (Look at PPTs)**
-- [x] SHA3 ✅ 2026-04-24
+- [x] **Signatures (Look at PPTs)** ✅ 2026-04-24
+- [ ] SHA3
 - [x] SSL/TLS ✅ 2026-04-24
 - [x] Stream cipher ✅ 2026-04-24
 - [ ] Web Security
