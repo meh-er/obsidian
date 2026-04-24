@@ -18,6 +18,7 @@ Next session:
 - [ ] Diffie Hellman
 - [x] Digital Certificate ✅ 2026-04-24
 - [ ] UIDs - incl FSUID
+- [ ] Error detection
 - [x] Forward Secrecy ✅ 2026-04-24
 - [x] Hash Functions ✅ 2026-04-24
 - [ ] Heartbleed
