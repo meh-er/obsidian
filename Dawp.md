@@ -42,6 +42,8 @@ DAWP
 - [ ] TCP/IP diagrams
 - [ ] Sockets/Ports
 - [ ] DNS
+- [ ] REST documentation tools
+
 **Databases CheckList**
 - [x] Writing SQL Queries ✅ 2026-04-21
 - [x] Anomaly and other database activities ✅ 2026-04-26
