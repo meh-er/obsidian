@@ -18,13 +18,24 @@ DAWP
 - [ ] Working with the Angular template
 
 - Study flashcards + find rando topics from 2nd half to go in depth on idk
-- [ ] Entity diagrams
+- [x] Entity diagrams ✅ 2026-04-26
 
 
+**Web Programming**
+- [ ] HTTP Protocol
+- [ ] HTTP methods + syntax
+- [ ] HTTPS
+- [ ] FTP, SSH, IMAP, SMTP,
+- [ ] Terminal apps: ifconfig, traceroute, ping, nslookup, curl commands
+
+**Unsure**
+- [ ] TCP/IP diagrams
+- [ ] Sockets/Ports
+- [ ] DNS
 **Databases CheckList**
 - [x] Writing SQL Queries ✅ 2026-04-21
-- [ ] Anomaly and other database activities
-- [ ] Normalisation
-- [ ] JDL / Entities
+- [x] Anomaly and other database activities ✅ 2026-04-26
+- [x] Normalisation ✅ 2026-04-26
+- [x] JDL / Entities ✅ 2026-04-26
 - [ ] Flashcards
 
