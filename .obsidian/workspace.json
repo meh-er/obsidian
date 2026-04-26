@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. OSSP/von Neumann architecture.md",
+                "file": "Dawp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "von Neumann architecture"
+              "title": "Dawp"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases and Web Programming Revision/Components of HTTP-based systems.md",
+                "file": "Dawp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Components of HTTP-based systems"
+              "title": "Backlinks for Dawp"
             }
           },
           {
@@ -219,11 +220,12 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "4109f545d3e502da",
+  "active": "f52410acc1aa42f4",
   "lastOpenFiles": [
+    "1. OSSP/von Neumann architecture.md",
+    "Databases and Web Programming Revision/Components of HTTP-based systems.md",
     "Databases and Web Programming Revision/Ports.md",
     "Databases and Web Programming Revision/POST.md",
-    "Databases and Web Programming Revision/Components of HTTP-based systems.md",
     "Databases and Web Programming Revision/GET.md",
     "Databases and Web Programming Revision/User-Agent.md",
     "Databases and Web Programming Revision/Web Applications Architectures.md",
@@ -243,7 +245,6 @@
     "Binary Trees.md",
     "OSSP Revision Schedule.md",
     "Security and Networks Revision/Needham-Schroeder-Lowe Public Key Protocol.md",
-    "1. OSSP/von Neumann architecture.md",
     "1. OSSP/Memory Management.md",
     "1. OSSP/Scheduling processes.md",
     "1. OSSP/Process concept.md",

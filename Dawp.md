@@ -29,14 +29,14 @@ DAWP
 
 - [x] What are APIs ✅ 2026-04-26
 - [x] What are RESTful APis ✅ 2026-04-26
-- [ ] HTTP Protocol methods & CRUD
+- [x] HTTP Protocol methods & CRUD ✅ 2026-04-26
 - [ ] Headers with curl
 - [ ] Design conventions
 - [ ] HTTP codes
 - [ ] JHipster
 - [ ] Boilerplate
 - [ ] Springboot
-- [ ] Hibernate/JPA< Liquibase, FakerJS, Swagger, Auth and Auth
+- [ ] Hibernate/JPA, Liquibase, FakerJS, Swagger, Auth and Auth
 - [ ] Jhipster generation: paginate, service. dto, filter
 **Unsure**
 - [ ] TCP/IP diagrams
