@@ -22,12 +22,22 @@ DAWP
 
 
 **Web Programming**
-- [ ] HTTP Protocol
-- [ ] HTTP methods + syntax
+- [x] HTTP Protocol ✅ 2026-04-26
 - [ ] HTTPS
 - [ ] FTP, SSH, IMAP, SMTP,
 - [ ] Terminal apps: ifconfig, traceroute, ping, nslookup, curl commands
 
+- [x] What are APIs ✅ 2026-04-26
+- [x] What are RESTful APis ✅ 2026-04-26
+- [ ] HTTP Protocol methods & CRUD
+- [ ] Headers with curl
+- [ ] Design conventions
+- [ ] HTTP codes
+- [ ] JHipster
+- [ ] Boilerplate
+- [ ] Springboot
+- [ ] Hibernate/JPA< Liquibase, FakerJS, Swagger, Auth and Auth
+- [ ] Jhipster generation: paginate, service. dto, filter
 **Unsure**
 - [ ] TCP/IP diagrams
 - [ ] Sockets/Ports

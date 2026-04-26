@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dawp.md",
+                "file": "Databases and Web Programming Revision/Components of HTTP-based systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dawp"
+              "title": "Components of HTTP-based systems"
             }
           },
           {
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dawp.md",
+                "file": "Databases and Web Programming Revision/Components of HTTP-based systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dawp"
+              "title": "Backlinks for Components of HTTP-based systems"
             }
           },
           {
@@ -221,6 +221,18 @@
   },
   "active": "4109f545d3e502da",
   "lastOpenFiles": [
+    "Databases and Web Programming Revision/Ports.md",
+    "Databases and Web Programming Revision/POST.md",
+    "Databases and Web Programming Revision/Components of HTTP-based systems.md",
+    "Databases and Web Programming Revision/GET.md",
+    "Databases and Web Programming Revision/User-Agent.md",
+    "Databases and Web Programming Revision/Web Applications Architectures.md",
+    "Databases and Web Programming Revision/Protocols.md",
+    "Databases and Web Programming Revision/JDL.md",
+    "Databases and Web Programming Revision/Command Line Tools.md",
+    "Databases and Web Programming Revision/Host.md",
+    "Databases and Web Programming Revision/HTTP Lifecycle.md",
+    "Dawp.md",
     "DAWP Qs.md",
     "SECNET REVISION TOPICS.md",
     "Security and Networks Revision/SHA-256.md",
@@ -229,7 +241,6 @@
     "Pasted image 20260424123555.png",
     "Database Practice Qs.md",
     "Binary Trees.md",
-    "Dawp.md",
     "OSSP Revision Schedule.md",
     "Security and Networks Revision/Needham-Schroeder-Lowe Public Key Protocol.md",
     "1. OSSP/von Neumann architecture.md",
@@ -237,17 +248,6 @@
     "1. OSSP/Scheduling processes.md",
     "1. OSSP/Process concept.md",
     "2. SaN/Internet.md",
-    "2. SaN/Hashes.md",
-    "2. SaN/Cryptography.md",
-    "secnet.md",
-    "Security and Networks Revision/Access Control Matrix.md",
-    "Security and Networks Revision/SSL, TLS.md",
-    "Security and Networks Revision/Diffie Hellman.md",
-    "1. OSSP/Concurrent programming.md",
-    "1. OSSP/Context switching.md",
-    "1. OSSP/Writing kernel programs in C.md",
-    "1. OSSP/Basic C syntax, compiling programs.md",
-    "1. OSSP/Android specifics.md",
     "Mixed Media/Untitled",
     "Mixed Media/Music",
     "Mixed Media",
