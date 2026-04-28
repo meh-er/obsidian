@@ -57,9 +57,10 @@ Return to:
 - [ ] TLS handshake
 
 **Topic 2**
-- [ ] Cookies
-- [ ] Command Injection
+- [x] Cookies ✅ 2026-04-28
+- [x] Command Injection ✅ 2026-04-28
 - [ ] MITM
 - [ ] Reverse Engineering
-- [ ] XSS
-- [ ] Web Security
+- [ ] Buffer Overflows
+- [x] XSS ✅ 2026-04-28
+- [x] Web Security ✅ 2026-04-28

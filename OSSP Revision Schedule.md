@@ -20,6 +20,8 @@
 
 **Wk 4**
 - [ ] Sockets
+- [ ] Multicore systems
+- [ ] 
 - [ ] Concurrency
 - [ ] Multithreading
 
