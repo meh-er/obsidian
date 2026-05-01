@@ -55,30 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBWP practic paper.md",
+                "file": "SECNET REVISION TOPICS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DBWP practic paper"
-            }
-          },
-          {
-            "id": "9b03c71cf09defb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SaN 2021.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SaN 2021"
+              "title": "SECNET REVISION TOPICS"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -151,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SaN 2021.md",
+                "file": "SECNET REVISION TOPICS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SaN 2021"
+              "title": "Backlinks for SECNET REVISION TOPICS"
             }
           },
           {
@@ -262,10 +248,13 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "9b03c71cf09defb8",
+  "active": "8642acc777a5890a",
   "lastOpenFiles": [
-    "SaN 2021.md",
+    "Scenario Questions.md",
+    "Security and Networks Revision/SSL, TLS.md",
+    "Security and Networks Revision/digital certificate.md",
     "DBWP practic paper.md",
+    "SaN 2021.md",
     "Dawp.md",
     "DAWP Qs.md",
     "DBWP.md",
@@ -287,10 +276,7 @@
     "Databases and Web Programming Revision/Host.md",
     "Databases and Web Programming Revision/HTTP Lifecycle.md",
     "Security and Networks Revision/SHA-256.md",
-    "Security and Networks Revision/SHA3.md",
-    "Security and Networks Revision/Feistal Ciphers.md",
     "Pasted image 20260424123555.png",
-    "Database Practice Qs.md",
     "Mixed Media/Untitled",
     "Mixed Media/Music",
     "Mixed Media",

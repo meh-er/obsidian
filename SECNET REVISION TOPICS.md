@@ -11,11 +11,11 @@ Next session:
 
 **Secnet Checklist**
 - [ ] Access Control
-- [x] AES ✅ 2026-04-24
-- [x] Block Cipher Modes ✅ 2026-04-24
+- [ ] AES
+- [ ] Block Cipher Modes
 - [ ] Command Injections
-- [ ] Cookies
-- [ ] Diffie Hellman
+- [x] Cookies ✅ 2026-05-01
+- [x] Diffie Hellman ✅ 2026-05-01
 - [x] Digital Certificate ✅ 2026-04-24
 - [ ] UIDs - incl FSUID
 - [ ] Error detection
@@ -26,9 +26,9 @@ Next session:
 - [x] IV ✅ 2026-04-24
 - [ ] IP Packet
 - [ ] LogJam
-- [ ] MITM
+- [x] MITM ✅ 2026-05-01
 - [ ] MAC (CCM, CBC, HMAC)
-- [ ] Needham-Schroeder
+- [x] Needham-Schroeder ✅ 2026-05-01
 - [x] Nonce ✅ 2026-04-24
 - [x] One-Time Pad ✅ 2026-04-24
 - [ ] Redirects
@@ -36,7 +36,7 @@ Next session:
 - [x] RSA ✅ 2026-04-24
 - [x] Salting ✅ 2026-04-24
 - [x] **Signatures (Look at PPTs)** ✅ 2026-04-24
-- [ ] SHA3
+- [x] SHA3 ✅ 2026-05-01
 - [x] SSL/TLS ✅ 2026-04-24
 - [x] Stream cipher ✅ 2026-04-24
 - [ ] Web Security
