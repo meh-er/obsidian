@@ -15,7 +15,7 @@
 - [ ] Flashcards
 - [ ] JDL entities 
 - [ ] Lab 8 second half
-- [ ] Lab 9
+		- [ ] Lab 9
 
 **Flashcard Time - 2hrs 5 mins**
 - [ ] 25
