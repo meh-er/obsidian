@@ -19,15 +19,15 @@
 - [ ] Compiling larger programs
 
 **Wk 4**
-- [ ] Sockets
-- [ ] Multicore systems
-- [ ] 
-- [ ] Concurrency
-- [ ] Multithreading
+- [x] Sockets ✅ 2026-05-02
+- [x] Multicore systems ✅ 2026-05-02
+- [x] Concurrency ✅ 2026-05-02
+- [x] Multithreading ✅ 2026-05-02
 
 **Wk 5**
-- [ ] More multithreading
+- [x] More multithreading ✅ 2026-05-02
 - [ ] Intro to operations sytems design principals and system calls
+- [ ] Bootstrapping in OS
 
 **Wk 7**
 - [ ] Memory Management
