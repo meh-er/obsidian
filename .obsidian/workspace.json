@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBWP practic paper.md",
+                "file": "Dawp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DBWP practic paper"
+              "title": "Dawp"
             }
           }
         ],
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DBWP practic paper.md",
+                "file": "Dawp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DBWP practic paper"
+              "title": "Backlinks for Dawp"
             }
           },
           {
@@ -250,15 +250,15 @@
   },
   "active": "8642acc777a5890a",
   "lastOpenFiles": [
+    "DAWP Qs.md",
+    "DBWP.md",
+    "DBWP practic paper.md",
     "SECNET REVISION TOPICS.md",
     "Scenario Questions.md",
     "Security and Networks Revision/SSL, TLS.md",
     "Security and Networks Revision/digital certificate.md",
-    "DBWP practic paper.md",
     "SaN 2021.md",
     "Dawp.md",
-    "DAWP Qs.md",
-    "DBWP.md",
     "2026-04-30.md",
     "Databases and Web Programming Revision/User-Agent.md",
     "OSSP Revision Schedule.md",

@@ -15,7 +15,9 @@
 - [ ] Flashcards
 - [ ] JDL entities 
 - [ ] Lab 8 second half
-		- [ ] Lab 9
+- [ ] Textbook 7,10,12
+- [ ] Request Parameters vs Path variables
+
 
 **Flashcard Time - 2hrs 5 mins**
 - [ ] 25
