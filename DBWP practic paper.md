@@ -1,90 +1,47 @@
-# 1
-## a
-
-```
-CREATE TABLE Employees (
-	employee_id Int PRIMARY KEY,
-	email varchar(255) UNIQUE,
-	salary Int, 
-	department String NULL,
-	CONSTRAINTS salary > 0, )
-```
-
-## b
-### i
-- SeatNumber is dependent on FlightNumber
-- Passenger is dependent on BookingID
-### ii
-
-- Not in 3NF - 3NF is defined as no transitive dependencies + in 2NF, i.e. no columns are dependent on anything other than the Primary Key
-- The SeatNumber is reliant on the flightNumber, which is not the primary key of this table, so it should be split into a separate table along with destination. BookingID should only contain passenger name and flightnumber as a FK
-## c
-### i
-Given: 
-Sales(SaleID, ProductName, Quantity, Price)
-```
-SELECT ProductName, SUM(Price) 
-FROM Sales
-GROUP BY ProductName
-```
-
-### ii
-```
-SELECT ProductName
-FROM Sales
-WHERE SUM(Price) > 500
-ORDER BY SUM(Price)
-```
-
 # 2
-## 1
-### a
-- You should not have a /create endpoint, it should just be users
-- You should have a noun not a verb or sentence in the endpoint name, again should just be users
+findById() - find the name of something by its id - when id is a pk
+getReferenceById()  - get a referernce to something in another table by its id - when id is a fk
 
-### b
-- /api/users/
-- /api/users
-
-## 2
-### a
-This method returns products with a price greater than the minimum given
-
-### b
-Layers: Application, Service, Repository, Database
-
-Repository?
-
-## 3
-### a
-- Session-based authentication involves usage of a cookie or session id to verify the device for the length of a 'session'. You are not really given specific perms based on your auth?
-- Token-based authentication can be used to authenticate the user rather than the device since you can manually input this
-
-### b
-- More secure, sids can be stolen
-
+findById() vs getReferenceById()
+queries DB and returns optional vs lazy proxy
 # 3
-## 1
-### a
-POST
-PUT/PATCH (partial vs full update)
-DELETE
+@Entity 
+- so that JPA can know it is a persistent entity method as an entity
+- if no name specified then inherits table's name
 
-### b
-idk i need to revise this
+@Table
+- if entity name and table name are different, this will be table name
+- Can also specify the schema used - good for differentiating  different sets of tables
 
+@Id
+- defines the primary key in the table
 
-### c
-Gves user insight into what is happening behind the scenes so they know why the error occurs
+@GeneratedValue
+idk yet
 
-## 2
+# 4
+Auto inherits 
+**JPA maps the field to a column with the same name by default**
 
-Member:name, email,
-Class:title, instructor
+# 6
+v1/ap/wtv
 
-Relationship OneToMany {
-	Member{class} to Class{member}
-}
+- Headers
+- URL
+- Controller mapping
 
-## 3
-idk bro
+# 7
+motherfucking **requestmapping**
+@Deprectated("/api/v1/orders")
+@Restcontroller("/api/v2/orders")
+
+# 8
+Content-Type: application/api/v2/+.json
+
+# 9 
+Still works with older versions of the API
+
+# 10
+Deprectation is when an api has become obsoete - need warnings and a replacement to developers ASAP
+Can be communicated through headers or @Deprecated
+
