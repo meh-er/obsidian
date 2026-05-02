@@ -28,6 +28,7 @@
 - [x] More multithreading ✅ 2026-05-02
 - [ ] Intro to operations sytems design principals and system calls
 - [ ] Bootstrapping in OS
+- [ ] Modular Kernel
 
 **Wk 7**
 - [ ] Memory Management
