@@ -7,6 +7,12 @@ Next session:
 - [ ] Length extension attacks
 - [ ] Return topics
 
+- [ ] State what each message does
+- [ ] Identify Session Key
+- [ ] Analyse Key Freshness
+- [ ] Analyse Forward Secrecy
+- [ ] Can attacker learn M?
+- [ ] Look for attacks: replay, MITM, key derivation flaw, reuse
 
 
 **Secnet Checklist**
