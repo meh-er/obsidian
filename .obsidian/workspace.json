@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SECNET REVISION TOPICS.md",
+                "file": "OSSP Revision Schedule.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SECNET REVISION TOPICS"
+              "title": "OSSP Revision Schedule"
             }
           }
         ],
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SECNET REVISION TOPICS.md",
+                "file": "OSSP Revision Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SECNET REVISION TOPICS"
+              "title": "Backlinks for OSSP Revision Schedule"
             }
           },
           {
@@ -264,8 +264,8 @@
   },
   "active": "90184947523fe656",
   "lastOpenFiles": [
-    "secnet.md",
     "SECNET REVISION TOPICS.md",
+    "secnet.md",
     "Scenario Questions.md",
     "SaN 2024.md",
     "SaN 2021.md",

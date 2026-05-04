@@ -26,13 +26,13 @@
 
 **Wk 5**
 - [x] More multithreading ✅ 2026-05-02
-- [ ] Intro to operations sytems design principals and system calls
-- [ ] Bootstrapping in OS
-- [ ] Modular Kernel
+- [x] Intro to operations sytems design principals and system calls ✅ 2026-05-04
+- [x] Bootstrapping in OS ✅ 2026-05-04
+- [x] Modular Kernel ✅ 2026-05-04
 
 **Wk 7**
-- [ ] Memory Management
-- [ ] Kernel Programming
+- [x] Memory Management ✅ 2026-05-04
+- [x] Kernel Programming ✅ 2026-05-04
 
 **Wk 8**
 - [ ] Processes
@@ -46,3 +46,10 @@
 - [ ] Device drivers
 - [ ] Android adaptations for linux kernel
 
+
+Topics in more detail
+- [ ] Trapping to the kernel
+- [ ] microkernel vs modular kernel
+- [ ] unix architecture
+- [ ] bootstrapping of os
+- [ ] structure of a kernel
