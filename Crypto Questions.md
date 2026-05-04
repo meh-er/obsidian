@@ -6,8 +6,13 @@
 
 3.**Suppose you are designing a linux shell program that would involve a login/password based access control. Assuming you have root access, what should you do to ensure security from probable trojan password capture programs. You do not need to write exact commands.**
 
-- Not use root access at all times, only when necessary - like sudo
-- MFA
+```
+  Ensure correct file permissions (no write access)
+  Use a trusted path
+  Avoid running untrusted programs before login
+  Use hashed passwords
+  
+```
 
 4.**Suppose a password hashing does not involve salt. What could be the security vulnerabilities**
 - Rainbow tables - could find hash on them and then know password
