@@ -38,3 +38,7 @@ aes ctr
 - reuse of keystream
 - known plaintext attack
 - no auth/integrity
+
+What is RSA vulnerable to?
+- badly chosen n, p, q
+- 
