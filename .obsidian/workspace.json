@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSSP Revision Schedule.md",
+                "file": "Crypto Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSSP Revision Schedule"
+              "title": "Crypto Questions"
             }
           }
         ],
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSSP Revision Schedule.md",
+                "file": "Crypto Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OSSP Revision Schedule"
+              "title": "Backlinks for Crypto Questions"
             }
           },
           {
@@ -264,12 +264,15 @@
   },
   "active": "90184947523fe656",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Crypto Questions.md",
+    "Security and Networks Revision/SUID.md",
+    "OSSP Revision Schedule.md",
     "SECNET REVISION TOPICS.md",
     "secnet.md",
     "Scenario Questions.md",
     "SaN 2024.md",
     "SaN 2021.md",
-    "OSSP Revision Schedule.md",
     "Dawp.md",
     "DAWP Qs.md",
     "DBWP.md",
@@ -287,9 +290,6 @@
     "Databases and Web Programming Revision/POST.md",
     "Databases and Web Programming Revision/GET.md",
     "Databases and Web Programming Revision/Protocols.md",
-    "Databases and Web Programming Revision/JDL.md",
-    "Databases and Web Programming Revision/Command Line Tools.md",
-    "Databases and Web Programming Revision/Host.md",
     "3. Images/Pasted image 20260424123555.png",
     "Mixed Media/Untitled",
     "Mixed Media/Music",
