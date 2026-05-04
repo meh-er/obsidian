@@ -69,4 +69,20 @@ CTR:
 - encrypted with ctr ENC E_k XOR p = c
 - decrypted with c XOR ctr DEC D_k = p
 14.**Why can't we use CBC-MAC as a cryptographic hash function?**
+
+
+# 2
+$H(x) = h(x||x)$
+
+if collision:
+- H(x) = H(y)
+- h(x + x) = h( y + y)
+- implies h(x) = h(y) 
+- hard to find as collisions are rare
+- collision resistant
+
+preimage:
+- y = h(x + x)
+- y = h(x)
+- h is preimage resistant which implies that this function is preimage resistant
 - 
