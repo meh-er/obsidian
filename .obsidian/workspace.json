@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBWP cheat sheet.md",
+                "file": "2026-05-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DBWP cheat sheet"
+              "title": "2026-05-05"
             }
           },
           {
@@ -69,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dbwp practic.md",
+                "file": "Security and Networks Revision/Digital Signatures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dbwp practic"
+              "title": "Digital Signatures"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -263,15 +263,17 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "6b1748447f4be340",
+  "active": "641a1b49cb5fca24",
   "lastOpenFiles": [
     "DBWP cheat sheet.md",
-    "Dawp.md",
+    "2026-05-05.md",
+    "Crypto Questions.md",
+    "Security and Networks Revision/Digital Signatures.md",
     "dbwp practic.md",
+    "Dawp.md",
     "DBWP.md",
     "SECNET RANDO.md",
     "Untitled.md",
-    "Crypto Questions.md",
     "SaN 2021.md",
     "Security and Networks Revision/SUID.md",
     "OSSP Revision Schedule.md",
@@ -289,8 +291,6 @@
     "Databases and Web Programming Revision/Web Applications Architectures.md",
     "1. OSSP/von Neumann architecture.md",
     "Databases and Web Programming Revision/Components of HTTP-based systems.md",
-    "Databases and Web Programming Revision/Ports.md",
-    "Databases and Web Programming Revision/POST.md",
     "3. Images/Pasted image 20260424123555.png",
     "Mixed Media/Untitled",
     "Mixed Media/Music",
