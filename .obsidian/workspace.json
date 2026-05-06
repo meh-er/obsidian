@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-05-05.md",
+                "file": "Nomura.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-05"
+              "title": "Nomura"
             }
           },
           {
@@ -265,8 +265,9 @@
   },
   "active": "641a1b49cb5fca24",
   "lastOpenFiles": [
-    "DBWP cheat sheet.md",
     "2026-05-05.md",
+    "Nomura.md",
+    "DBWP cheat sheet.md",
     "Crypto Questions.md",
     "Security and Networks Revision/Digital Signatures.md",
     "dbwp practic.md",
@@ -290,7 +291,6 @@
     "Security and Networks Revision/Web Security.md",
     "Databases and Web Programming Revision/Web Applications Architectures.md",
     "1. OSSP/von Neumann architecture.md",
-    "Databases and Web Programming Revision/Components of HTTP-based systems.md",
     "3. Images/Pasted image 20260424123555.png",
     "Mixed Media/Untitled",
     "Mixed Media/Music",
