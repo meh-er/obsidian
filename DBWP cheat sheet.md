@@ -32,7 +32,7 @@ Authentication = verifying identity
 Authorization = checking permissions
 
 ##### JWT
-JWT contains: 
+[[JWT]] contains: 
 - user ID
 - roles/perms
 - expiry time
