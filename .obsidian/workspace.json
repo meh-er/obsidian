@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -149,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "856d827809a8eed7",
@@ -277,8 +278,10 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "a77ee187e9e58c9c",
+  "active": "90184947523fe656",
   "lastOpenFiles": [
+    "Security and Networks Revision/Digital Signatures.md",
+    "Crypto Questions.md",
     "Untitled 1.md",
     "2026-05-07.md",
     "2026-05-06.md",
@@ -289,8 +292,6 @@
     "DBWP cheat sheet.md",
     "Databases and Web Programming Revision/JHipster.md",
     "Nomura.md",
-    "Crypto Questions.md",
-    "Security and Networks Revision/Digital Signatures.md",
     "dbwp practic.md",
     "Dawp.md",
     "DBWP.md",
