@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Crypto Questions.md",
+                "file": "2026-05-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Crypto Questions"
+              "title": "2026-05-08"
             }
           },
           {
@@ -280,8 +280,9 @@
   },
   "active": "90184947523fe656",
   "lastOpenFiles": [
-    "Security and Networks Revision/Digital Signatures.md",
     "Crypto Questions.md",
+    "2026-05-08.md",
+    "Security and Networks Revision/Digital Signatures.md",
     "Untitled 1.md",
     "2026-05-07.md",
     "2026-05-06.md",
@@ -305,7 +306,6 @@
     "Scenario Questions.md",
     "SaN 2024.md",
     "DAWP Qs.md",
-    "Security and Networks Revision/SSL, TLS.md",
     "3. Images/Pasted image 20260424123555.png",
     "Mixed Media/Untitled",
     "Mixed Media/Music",
