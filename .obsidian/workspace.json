@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBWP cheat sheet.md",
+                "file": "2026-05-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DBWP cheat sheet"
+              "title": "2026-05-11"
             }
           },
           {
@@ -278,8 +278,10 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "b119851a07e3603a",
+  "active": "f52410acc1aa42f4",
   "lastOpenFiles": [
+    "DBWP cheat sheet.md",
+    "2026-05-11.md",
     "dbwp practic.md",
     "Security and Networks Revision/Web Security.md",
     "Security and Networks Revision/Command Injection.md",
@@ -304,8 +306,6 @@
     "Untitled 1.md",
     "2026-05-07.md",
     "2026-05-06.md",
-    "random1.md",
-    "2026-04-17.md",
     "3. Images/Pasted image 20260424123555.png",
     "Mixed Media/Untitled",
     "Mixed Media/Music",
