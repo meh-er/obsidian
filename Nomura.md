@@ -23,3 +23,4 @@ film about money
 
 - mutual funds - open ended, closed ended
 - sell side (bank) vs buy side (investors)
+- Asset manegement parameters
