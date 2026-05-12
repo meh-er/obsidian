@@ -20,4 +20,6 @@ film about money
 - creditors depositors no contract
 - mmmm yay mortgages
 - i am more confused actually
-- 
+
+- mutual funds - open ended, closed ended
+- sell side (bank) vs buy side (investors)
