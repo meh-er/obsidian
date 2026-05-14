@@ -3,3 +3,4 @@
 - [ ] List comprehensions + functions in notes
 - [ ] foldr, foldl
 - [ ] implement !! recursively
+- [ ] Monads

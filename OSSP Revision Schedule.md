@@ -35,8 +35,8 @@
 - [x] Kernel Programming ✅ 2026-05-04
 
 **Wk 8**
-- [ ] Processes
-- [ ] Scheduling
+- [x] Processes ✅ 2026-05-14
+- [x] Scheduling ✅ 2026-05-14
 
 **Wk 9**
 - [ ] Cooperating processes
@@ -53,3 +53,5 @@ Topics in more detail
 - [ ] unix architecture
 - [ ] bootstrapping of os
 - [ ] structure of a kernel
+- [ ] system calls
+- [ ] Process block/ process control blocks
