@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSSP Revision Schedule.md",
+                "file": "1. OSSP/The critical-section problem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSSP Revision Schedule"
+              "title": "The critical-section problem"
             }
           },
           {
@@ -124,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "critical section",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,11 +145,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "856d827809a8eed7",
@@ -279,9 +281,9 @@
   },
   "active": "f52410acc1aa42f4",
   "lastOpenFiles": [
+    "OSSP Revision Schedule.md",
     "AI REVISION TASKS.md",
     "2026-05-06.md",
-    "OSSP Revision Schedule.md",
     "2026-05-07.md",
     "2026-05-08.md",
     "2026-05-11.md",
