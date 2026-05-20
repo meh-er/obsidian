@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4109f545d3e502da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Security and Networks Revision/SHA3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SHA3"
-            }
-          },
-          {
             "id": "f52410acc1aa42f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. OSSP/The critical-section problem.md",
+                "file": "2026-05-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The critical-section problem"
+              "title": "2026-05-20"
             }
           },
           {
@@ -91,8 +77,7 @@
               "title": "Digital Signatures"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,13 +130,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "856d827809a8eed7",
@@ -269,18 +252,20 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "canvas:Create new canvas": false
     }
   },
   "active": "f52410acc1aa42f4",
   "lastOpenFiles": [
+    "1. OSSP/The critical-section problem.md",
+    "2026-05-20.md",
     "OSSP Revision Schedule.md",
     "AI REVISION TASKS.md",
     "2026-05-06.md",
@@ -305,8 +290,6 @@
     "Security and Networks Revision/Crypto Questions.md",
     "Databases and Web Programming Revision/JWT.md",
     "Nomura.md",
-    "Databases and Web Programming Revision/dbwp practic.md",
-    "Security and Networks Revision/Web Security.md",
     "3. Images/Pasted image 20260424123555.png",
     "Mixed Media/Untitled",
     "Mixed Media/Music",
