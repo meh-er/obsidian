@@ -39,12 +39,12 @@
 - [x] Scheduling ✅ 2026-05-14
 
 **Wk 9**
-- [ ] Cooperating processes
-- [ ] File systems
+- [x] Cooperating processes ✅ 2026-05-21
+- [x] File systems ✅ 2026-05-21
 
 **Wk 10**
-- [ ] Device drivers
-- [ ] Android adaptations for linux kernel
+- [x] Device drivers ✅ 2026-05-21
+- [x] Android adaptations for linux kernel ✅ 2026-05-21
 
 
 Topics in more detail
@@ -55,3 +55,8 @@ Topics in more detail
 - [ ] structure of a kernel
 - [ ] system calls
 - [ ] Process block/ process control blocks
+
+LEARNT
+- A `short` can store between -32768, 32767
+- Arrays are 0 indexed but use e.g. a[10] to create an array with 10 length
+- For loops exist
