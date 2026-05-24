@@ -54,9 +54,67 @@ Topics in more detail
 - [ ] bootstrapping of os
 - [ ] structure of a kernel
 - [ ] system calls
-- [ ] Process block/ process control blocks
+- [x] Process block/ process control blocks ✅ 2026-05-24
 
 LEARNT
 - A `short` can store between -32768, 32767
 - Arrays are 0 indexed but use e.g. a[10] to create an array with 10 length
 - For loops exist
+
+# Process Control Block
+- When the OS **context switches** (swaps one process out for another), it saves the CPU state into the PCB so it can resume later exactly where it left off.
+- PCB contains everything for managing and scheduling by OS, e.g. pid, state, program counter, registers, info
+- kernel space
+
+# Process Environment Block
+- Lives in process's own memory (user space). Stores runtime environment and configuration of the process
+- Contains environment variables, command line arguments, heap info, loaded modules
+
+# Process Block
+- A more general/informal term that can mean different things depending on context, typically refers to the in-memory representation of the process as a whole  - combination of everything to describe a process
+- Could include reference to PCB, process's memory space layout, stack, heap, code/data segments
+
+# Trapping to the kernel
+- Normal programs run in **user mode**. 
+- A **trap/interrupt** is the mechanism that switches between them.
+
+Traps are triggered by:
+- **System calls:** process asks the OS for a service
+- **Exceptions**: divide by zero, invalid memory access
+- **Hardware interrupts**: keyboard input, disk completion
+
+# Microkernel
+- Kernel does memory management, basic inter-process communication, scheduling
+- Everything else runs as a **separate user-space process**
+- Slow - services must communicate via message-passing
+![[Pasted image 20260524121124.png]]
+
+# Modular kernel
+- core kernel can **dynamically load/unload modules** at runtime
+- Modules run in **kernel space** - fast
+- Don't need to recompile whole kernel to add a driver
+
+![[Pasted image 20260524121351.png]]
+
+# Unix Architecture
+![[Pasted image 20260524121412.png]]
+
+- Everything is a file (devices, sockets, pipes)
+- Small tools that do one thing well
+- processes are isolated - protected memory spaces
+
+# Bootstrapping the OS
+![[Pasted image 20260524121501.png]]
+
+
+- System has to load itself using only minimal tools
+
+# System calls
+A sys call is the formal mechanism for a user process to request a service from the kernel. 
+1. User program calls read(fd, buffer, size)
+2. C library wraps this into a syscall instruction
+3. CPU traps to kernel mode
+4. Kernel identifies which syscall (via a number)
+5. Kernel executes the service
+6. Result placed in register, returns to user mode
+7. Program continues

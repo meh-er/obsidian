@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-05-20.md",
+                "file": "OSSP Revision Schedule.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-20"
+              "title": "OSSP Revision Schedule"
             }
           },
           {
@@ -264,11 +264,15 @@
   },
   "active": "f52410acc1aa42f4",
   "lastOpenFiles": [
+    "Pasted image 20260524121501.png",
+    "Pasted image 20260524121412.png",
+    "Pasted image 20260524121351.png",
+    "Pasted image 20260524121124.png",
+    "2026-05-20.md",
     "Haskell Review Tasks.md",
     "OSSP Revision Schedule.md",
-    "2026-05-20.md",
     "1. OSSP/The critical-section problem.md",
-    "AI REVISION TASKS.md",
+    "4. Extras/AI REVISION TASKS.md",
     "2026-05-06.md",
     "2026-05-07.md",
     "2026-05-08.md",
@@ -289,7 +293,6 @@
     "Databases and Web Programming Revision/Dawp.md",
     "Security and Networks Revision/Crypto Questions.md",
     "Databases and Web Programming Revision/JWT.md",
-    "Nomura.md",
     "3. Images/Pasted image 20260424123555.png",
     "Mixed Media/Untitled",
     "Mixed Media/Music",
@@ -300,9 +303,6 @@
     "3. Images/Pasted image 20260408184411.png",
     "3. Images/Pasted image 20260120141503.png",
     "3. Images/Pasted image 20260408183203.png",
-    "3. Images/Pasted image 20260408183137.png",
-    "3. Images/Pasted image 20260408183036.png",
-    "3. Images/Pasted image 20260408182148.png",
     "Databases and Web Programming Revision",
     "Security and Networks Revision",
     "2. SaN/SaN.base",
