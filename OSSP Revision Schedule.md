@@ -48,13 +48,20 @@
 
 
 Topics in more detail
-- [ ] Trapping to the kernel
-- [ ] microkernel vs modular kernel
-- [ ] unix architecture
-- [ ] bootstrapping of os
+- [x] Trapping to the kernel ✅ 2026-05-25
+- [x] microkernel vs modular kernel ✅ 2026-05-25
+- [x] unix architecture ✅ 2026-05-25
+- [x] bootstrapping of os ✅ 2026-05-25
 - [ ] structure of a kernel
-- [ ] system calls
+- [x] system calls ✅ 2026-05-25
 - [ ] Define process & threads
+- [ ] Semaphores
+- [ ] Preemption in FCFS
+- [ ] Handling interrupts in device drivers
+- [ ] Scheduling for MultiProcessor systems
+- [ ] stack frames
+- [ ] Makefiles
+- [ ] 
 - [x] Process block/ process control blocks ✅ 2026-05-24
 
 
