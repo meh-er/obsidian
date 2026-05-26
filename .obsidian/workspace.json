@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSSP Revision Schedule.md",
+                "file": "2026-05-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSSP Revision Schedule"
+              "title": "2026-05-20"
             }
           },
           {
@@ -134,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "856d827809a8eed7",
@@ -265,13 +264,13 @@
   },
   "active": "f52410acc1aa42f4",
   "lastOpenFiles": [
+    "OSSP Revision Schedule.md",
     "Pasted image 20260524121501.png",
     "Pasted image 20260524121412.png",
     "Pasted image 20260524121351.png",
     "Pasted image 20260524121124.png",
     "2026-05-20.md",
     "Haskell Review Tasks.md",
-    "OSSP Revision Schedule.md",
     "1. OSSP/The critical-section problem.md",
     "4. Extras/AI REVISION TASKS.md",
     "2026-05-06.md",
@@ -303,7 +302,6 @@
     "3. Images/Pasted image 20260408184535.png",
     "3. Images/Pasted image 20260408184411.png",
     "3. Images/Pasted image 20260120141503.png",
-    "3. Images/Pasted image 20260408183203.png",
     "Databases and Web Programming Revision",
     "Security and Networks Revision",
     "2. SaN/SaN.base",
