@@ -12,5 +12,14 @@ Call-by-Reference: Uses the original value, taken from the reference to it's mem
 
 - strcpy does not take in the size of newTitle, so if it is longer than BUFFERLENGTH will overwrite whatever is below it.
 - prevItem -> next = &newItem but &newItem is a local variable so this pointer will return nothing once the function is closed?
-- delete frees but that has never been mallocated?
+- frees items but then tries to use items afterwards - illegal! use after free!
+- does not account for if currentItem == NULL, would crash in that case
+- prevItem is updated but the while loop does not progress on, currentItem is never moved to next
+
+# Q2
+## (a) What is a context switch? Why is it important for the OS to minimise the number of context switches? `[4]`
+A context switch occurs when the OS changes the process running. For example, this may be from a user thread to a kernel thread. If many context switches are occuring, then the OS will be unable to actually execute any of the tasks, and this will decrease efficiency, so it must minimise this number.
+
+## (b) A multi-user system used to work well, with low response times and good throughput. Now many users use a package for automatic program verification, and as a result the response time is high, and throughput low. How would you distinguish between overloaded CPU, thrashing and overused disk  as a possible reason? `[4]`
+- CPU overloading: occurs when there are many processes being executed at one time and the CPU cannot be executing them all at once so is overloaded. This would be caused by too many processes at a time and not have a high response time, which
 - 
