@@ -61,4 +61,41 @@ void process_matrix(int size) {
     free(matrix);
 }
 ```
-- memory leak - 
+- memory leak - if (matrix == NULL) return without freeing matrix
+- same with returning is size > 10, matrix not freed
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int id;
+} User;
+
+void clean_up(User *u) {
+    free(u);
+    free(u->name);
+}
+```
+- frees u before u-> name even though you use u to get u-> name? Use after free
+
+
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+void execute_calculation() {
+    int *data = (int *)malloc(5 * sizeof(int));
+    // ... assume data is populated and used ...
+    
+    free(data);
+    
+    // ... generic logging code ...
+    if (data != NULL) {
+        printf("First element was: %d\n", data[0]);
+    }
+}
+```
+- use after free: printing after freeeing data, leads to unexpected behaviour
