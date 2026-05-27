@@ -13,3 +13,4 @@ Call-by-Reference: Uses the original value, taken from the reference to it's mem
 - strcpy does not take in the size of newTitle, so if it is longer than BUFFERLENGTH will overwrite whatever is below it.
 - prevItem -> next = &newItem but &newItem is a local variable so this pointer will return nothing once the function is closed?
 - delete frees but that has never been mallocated?
+- 
