@@ -56,11 +56,13 @@ Topics in more detail
 - [x] system calls ✅ 2026-05-25
 - [ ] Define process & threads
 - [ ] Semaphores
-- [ ] Preemption in FCFS
-- [ ] Handling interrupts in device drivers
+- [x] Preemption in FCFS ✅ 2026-05-28
+- [x] Handling interrupts in device drivers ✅ 2026-05-28
 - [ ] Scheduling for MultiProcessor systems
 - [ ] stack frames
-- [ ] Makefiles
+- [ ] Thrashing
+- [ ] lock placement in critical sections
+- [x] Makefiles ✅ 2026-05-28
 - [ ] 
 - [x] Process block/ process control blocks ✅ 2026-05-24
 
