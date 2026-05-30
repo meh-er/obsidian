@@ -251,3 +251,5 @@ Linked list checks
 □ Is the last node's next set to NULL?
 □ Are both elem AND the node itself malloc'd separately?
 ```
+
+# Linked Lists
