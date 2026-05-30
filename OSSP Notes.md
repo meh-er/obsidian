@@ -165,3 +165,89 @@ Manually limit copy size to buffer and ensure null termination:
 strncpy(newItem.entry.title, newTitle, BUFFERLENGTH - 1);
 newItem.entry.title[BUFFERLENGTH - 1] = '\0';
 ```
+# C Crash Course
+## 1. Basic Variables and Pointers
+A pointer holds **an address** - points to where something lives in memory. 
+```
+int x = 5;      // x holds the value 5
+int *p = &x;    // p holds the ADDRESS of x
+                // & means "give me the address of"
+                // * means "go to that address and get the value"
+
+printf("%d", x);   // prints 5
+printf("%d", *p);  // also prints 5 — "go to address p, get value"
+```
+
+## 2. Structs
+A struct is just a way to **group related variables together** under one name.
+```
+struct List_t {
+    char *elem;           // a pointer to some text
+    struct List_t *next;  // a pointer to ANOTHER List_t
+};
+```
+This is a **linked** **list**.
+If NULL - marks end of list
+
+## 3. Malloc
+Malloc reserves a chunk of memory and gives you its address.
+```
+// WRONG — arg points to garbage, writing to it will crash
+char *arg;
+sprintf(arg, "hello");
+
+// RIGHT — malloc gives arg a real place to write to
+char *arg = malloc(256 * sizeof(char));
+sprintf(arg, "hello");   // now safe — we have 256 bytes reserved
+```
+
+## 4. Arrow operator `->`
+When you have a **pointer to a struct**, you use `->` to access its fields instead of `.`
+```
+struct List_t *node = malloc(sizeof(struct List_t));
+
+node->elem = "hello";   // set the elem field of the struct node points to
+node->next = NULL;      // set the next field
+```
+`node->elem` is just shorthand for `(*node).elem` - go to struct, get field elem
+
+
+# REMEMBER
+- **Can't dereference NULL**
+
+# RED FLAGS
+```
+// Red flag 1 — pointer declared but never malloc'd
+char *p;              // ← no malloc anywhere after this?  BUG
+
+// Red flag 2 — using pointer before checking if NULL
+head->elem = x;       // ← is head ever checked for NULL?  BUG
+
+// Red flag 3 — returning address of local variable
+return &x;            // ← x dies when function returns     BUG
+
+// Red flag 4 — malloc but no free anywhere
+malloc(256);          // ← grep for free() — not there?     BUG
+
+// Red flag 5 — off by one in array
+char buf[5];
+buf[5] = 'x';         // ← valid indices are 0-4 only       BUG
+```
+
+Ask every pointer:
+```
+1. Was it malloc'd (or assigned) before use?
+2. Could it be NULL when it's dereferenced?
+3. Does it point to something that's still alive?
+4. Is it freed exactly once?
+5. Is the malloc the right size?
+```
+
+Linked list checks
+```
+□ Is head initialised before being dereferenced?
+□ Is a new node malloc'd each iteration (not reusing the same one)?
+□ Does node->next get set before head moves?
+□ Is the last node's next set to NULL?
+□ Are both elem AND the node itself malloc'd separately?
+```
