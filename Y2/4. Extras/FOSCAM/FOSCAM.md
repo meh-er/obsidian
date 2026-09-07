@@ -7,7 +7,7 @@ Firmware
 
   
 
-[[Salt]]: 0x94122AF76A622F
+[[salt]]: 0x94122AF76A622F
 Description: [[OpenSSL]] encryption, salted, salt:
 
 

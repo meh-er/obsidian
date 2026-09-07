@@ -141,7 +141,7 @@ Session Key Generation
 **Why LogJam Works**
 1. **Many servers reuse the same small set of DH primes.**
 	- The NSA (and others) can precompute discrete logs for these primes.
-2. Export-grade [[cryptography]] is still widely supported.
+2. Export-grade [[Cryptography]] is still widely supported.
 	- These 'weak' DH groups were left in for legacy reasons.
 	- Attackers can downgrade connections to force weak groups.
 3. No authentication of the DH parameters.
@@ -157,7 +157,7 @@ Mitigation Steps:
 
 Industry Response:
 - Browser vendors (Chrome, Firefox) removed support for weak DH groups.
-- TLS 1.3 removes support for static DH and export-grade [[cryptography]]. 
+- TLS 1.3 removes support for static DH and export-grade [[Cryptography]]. 
 #### Conclusion
 - TLS secures communication, but only when **properly implemented and configured**.
 - Weak ciphers, flawed implementations and misconfigurations lead to major attacks (**HeartBleed, LogJam, Cipher Downgrade**)

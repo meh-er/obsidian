@@ -7,12 +7,12 @@
 - Context switching reduces system speed.
 
 ### Process Concept
-- An [[operating system]] executed a variety of programs:
+- An [[Operating System]] executed a variety of programs:
 	- Batch system - jobs
 	- Time-shared systems - user programs or tasks
 - Process - a program in execution, process execution must progress in sequential fashion. It includes:
 	- Program (text) and program counter (PC)
-	- [[Stack]]
+	- [[stack]]
 	- Data section
 
 ### Process States

@@ -21,7 +21,7 @@ tags:
 	- Each talks to others over known interfaced
 	- Each is loadable as needed within the kernel, so you could download a new device driver for your OS and load it at run-time, or perhaps when a device is plugged in
 - Overall, similar to layered architecture but with more flexibility, since all require drivers or kernel functionality need not be compiled into the kernel binary.
-- Note that the separation of the modules is still only logical, since all kernel code (including dynamically loaded modules) runs in the same privileged address space (a design now referred to as monolithic), so I could write a module that wipes out the [[operating system]] no problem.
+- Note that the separation of the modules is still only logical, since all kernel code (including dynamically loaded modules) runs in the same privileged address space (a design now referred to as monolithic), so I could write a module that wipes out the [[Operating System]] no problem.
 	- This leads to the benefits of micro-kernel architecture, which we will look at soon
 
 ![[Pasted image 20260217135415.png]]
@@ -33,7 +33,7 @@ tags:
 	- But when it needs to talk directly to hardware using privileged I/O port instructions, it must pass a message requesting such to the kernel.
 - Benefits:
 	- Easier to develop microkernel extensions
-	- Easier to port the [[operating system]] to new architectures
+	- Easier to port the [[Operating System]] to new architectures
 	- More reliable (less code is running in kernel mode) - if a device driver fails, it can be re-loaded
 	- More secure, since kernel is less-complex and therefore less likely to have security holes
 	- The system can recover from a failed device driver, which would usually cause 'a blue screen of death' in Windows or a 'kernel panic' in linux

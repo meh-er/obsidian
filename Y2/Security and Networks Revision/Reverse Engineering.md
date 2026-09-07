@@ -22,7 +22,7 @@ Goals:
 ### Tools
 - [[Debugger]]
 	- gdb
-- [[Disassembler]]
+- [[disassembler]]
 	- ghidra
 - [[decompiler]]
 	- ghidra

@@ -2,7 +2,7 @@
 tags:
   - OSSP
 ---
-See [[Process]]. 
+See [[process]]. 
 
 - Have processes competing for resources (e.g. CPU, disk other devices)
 - Important OS function: define a schedule to manage access of processes to these resources
