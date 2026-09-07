@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sfA.md",
+                "file": "2026-06-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sfA"
+              "title": "2026-06-02"
             }
           },
           {
@@ -98,7 +98,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -135,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "856d827809a8eed7",
@@ -229,12 +230,22 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
             "id": "ec2c8037eca49295",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "planner-timeline"
+            }
+          },
+          {
+            "id": "19266eb25c100c64",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -258,23 +269,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
+      "canvas:Create new canvas": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false,
-      "canvas:Create new canvas": false
+      "obsidian-day-planner:Open Multi-Day View": false
     }
   },
   "active": "e387d0d461c55cd2",
   "lastOpenFiles": [
-    "afa.md",
+    "2026-05-26.md",
+    "Pasted image 20260524121412.png",
     "sfA.md",
+    "afa.md",
     "Pasted image 20260603174049.png",
     "Pasted image 20260603171524.png",
     "Pasted image 20260603170749.png",
     "2026-06-03.md",
     "2026-06-02.md",
     "OSSP Notes.md",
-    "2026-05-26.md",
     "OSSP No.md",
     "Pasted image 20260602171512.png",
     "Week 7 Additional Excercises.md",
@@ -287,7 +299,6 @@
     "2026-05-20.md",
     "Haskell Review Tasks.md",
     "Pasted image 20260524121501.png",
-    "Pasted image 20260524121412.png",
     "Pasted image 20260524121351.png",
     "Pasted image 20260524121124.png",
     "1. OSSP/The critical-section problem.md",
@@ -299,7 +310,6 @@
     "4. Extras/Theory Questions.md",
     "Untitled 1.md",
     "Security and Networks Revision/SECNET REVISION TOPICS.md",
-    "Security and Networks Revision/SECNET RANDO.md",
     "3. Images/Pasted image 20260424123555.png",
     "Mixed Media/Untitled",
     "Mixed Media/Music",
