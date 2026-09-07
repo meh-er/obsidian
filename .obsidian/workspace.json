@@ -11,10 +11,14 @@
             "id": "f5fc40daeeffe491",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Y3/Confidentiality of Messages.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Confidentiality of Messages"
             }
           }
         ]
@@ -214,10 +218,10 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "e502fc63101dfdb2",
+  "active": "f5fc40daeeffe491",
   "lastOpenFiles": [
+    "Y3/Confidentiality of Messages.md",
     "Y3",
-    "Untitled.md",
     "Y2/3.1. Haskell/2026-05-26.md",
     "Y2/3.1. Haskell/2026-06-02.md",
     "Week 7 Additional Excercises.md",
@@ -261,7 +265,6 @@
     "Y2/Security and Networks Revision",
     "Y2/2. SaN/SaN.base",
     "Y2/1. OSSP/OSSP.base",
-    "Y2/4. Extras/FOSCAM",
     "Untitled.canvas"
   ]
 }
